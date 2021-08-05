@@ -1,0 +1,3217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>Quote | Boardwalk Insurance</title>
+  <meta name="description" content="Get a quote now by answering detailed questions to help us learn more about you">
+  <script src="js/form/form.js"></script>
+  <script src="js/form/routing.js"></script>
+  <script src="js/form/api.js"></script>
+  <script src="js/form/auto.js"></script>
+  <script src="js/form/insuranceHistory.js"></script>
+  <script src="js/form/progressBar.js"></script>
+  <link rel="stylesheet" href="form.css">
+  <link rel="icon" href="images/Boardwalk-Dark.svg">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <!-- CALENDLY -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7211036.js"></script>
+<!-- End of HubSpot Embed Code -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MY98WKEEN5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-MY98WKEEN5');
+  </script>
+
+<!-- Google Places API -->
+<script async
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_thNNiNcj0u64MK22l5FwLAGG_KkAQR4&libraries=places&callback=initAutocomplete" async defer>
+</script>
+
+</head>
+
+<body>
+  <!-- NAV -->
+  <div id="nav" class="nav">
+    <a id="navlink1" href="/home.html">Home</a>
+    <a id="navlink2" href="/home.html?#about">About</a>
+    <a id="navlink3" href="/claim.html">Claims</a>
+    <a id="navlink4" href="/faq.html">FAQs</a>
+    <img id="nav-logo" src="images/Boardwalk-Light.svg"
+      style="position: relative; bottom: 40px; right: 50px; width: 80px; display: none;" alt="">
+  </div>
+  <!-- NAV -->
+
+  <!-- FORM -->
+  <form id="myform" action="https://formspree.io/f/mzbkjrjq" method="POST">
+    <!-- PAGE 1 -->
+    <hr id="progressBarDash" class="progressBarLine">
+    
+    <div class="progress-Mainbar" id="progressBar">
+      <div id="progressBarPageOne" class="progress-step">
+       <a href="#"><div id="sCountOne" class="step-count"><img style="display: none;" id="sCountImgOne" class="step-count-img" src="images/green-checkmark.png" alt=""></div></a> 
+        <div class="step-description"><a href="#">My Business Info</a></div> <!-- FIX TO ALLOW TO HOMEPAGE WITHOUT REFRESH-->
+      </div>
+      <div id="progressBarPageTwo" style="display: none;" class="progress-step">
+        <a href="#"><div id="sCountTwo" class="step-count"><img style="display: none;" id="sCountImgTwo" class="step-count-img" src="images/green-checkmark.png" alt=""></div></a> 
+        <div class="step-description"><a href="#">My Insurance Needs</a></div>
+      </div>
+      <div id="progressBarPageThree" style="display: none;" class="progress-step">
+        <a href="#"><div id="sCountThree" class="step-count"><img style="display: none;" id="sCountImgThree" class="step-count-img" src="images/green-checkmark.png" alt=""></div></a> 
+        <div class="step-description"><a href="#">My Business Operations</a></div>
+      </div>
+      <div id="progressBarPageFour" style="display: none;" class="progress-step">
+        <a href="#"><div id="sCountFour" class="step-count"><img style="display: none;" id="sCountImgFour" class="step-count-img" src="images/green-checkmark.png" alt=""></div></a> 
+        <div class="step-description"><a href="#">My Business Property Info</a></div>
+      </div>
+      <div id="progressBarPageFive" style="display: none;" class="progress-step">
+        <a href="#"><div id="sCountFive" class="step-count"><img style="display: none;" id="sCountImgFive" class="step-count-img" src="images/green-checkmark.png" alt=""></div></a> 
+        <div class="step-description"><a href="#">My Auto Info</a></div>
+      </div>
+      <div id="progressBarPageSix" style="display: none;" class="progress-step">
+        <a href="#"><div id="sCountSix" class="step-count"><img style="display: none;" id="sCountImgSix" class="step-count-img" src="images/green-checkmark.png" alt=""></div></a> 
+        <div class="step-description"><a href="#">My Insurance History</a></div>
+      </div>
+      <div id="progressBarPageSeven" style="display: none;" class="progress-step">
+       <a href="#"><div id="sCountSeven" class="step-count"><img style="display: none;" id="sCountImgSeven" class="step-count-img" src="images/green-checkmark.png" alt=""></div></a> 
+        <div class="step-description"><a href="#">Soft Credit Check</a></div>
+      </div>
+    </div>
+
+    <!-- AUTOFILLED MODAL BOX -->
+    <div id="cs-modal-three" class="modal">
+      <div class="modal-content">
+        <span class="close" >&times;</span>
+        <img class="modal-logo" id="csImageModalThree" src="images/collecting.svg" alt="Boardwalk Insurance Logo">
+        <h3 style="text-align: center; font-weight: 600; color: black;">How did you find my information?</h3>
+        <p style="color: black; text-align: center;">Using your business name, 
+          we were able to pull some information about you with the help of our magical APIs which were lended to us
+          from Google's secret headquarters.
+        </p>
+      </div>
+    </div>
+
+    <section class="form-page-1" id="fpg1">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 5-8 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="0" max="100">0%</progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+
+        <h6 class="form-profile-name"></h6>
+        <h6 class="form-profile-info"></h6><br>
+        <h1 class="form-title"></h1><br>
+        <button type="submit" id="formButtonOne" class="form-button" onclick="changesNotSaved(); return show('fpg2','fpg1');">GET STARTED!</button><br>
+        <br><br><br>
+      </div>
+    </section>
+    <!---------------->
+
+    <!--------------------------------------- MY BUSINESS INFO -------------------------------------------------->
+
+    <!-- PAGE 2 -->
+    <section class="form-page-2" id="fpg2" style="display: none">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 8 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="5" max="100"></progress>
+        <br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name"></h6>
+        <h6 class="form-profile-info"></h6>
+
+        <h1 class="form-title">Tell me about your business</h1><br>
+
+        <input name="_company" type="text" onfocusout="formatBusinessName();" autocomplete="off" class="form-control" id="businessname" placeholder="Business Name" required><br><br>
+
+        <input type="radio" id="csoption1" name="Company Structure" value="Sole Proprietor">
+        <label class="company-radio" for="csoption1">Sole Proprietor</label>
+
+        <input type="radio" id="csoption2" name="Company Structure" value="Partnership">
+        <label class="company-radio" for="csoption2">Partnership</label>
+
+        <input type="radio"  id="csoption3" name="Company Structure" value="Corporation">
+        <label class="company-radio" for="csoption3">Corporation</label><br>
+        <h6 class="h6-error" id="csradio-error"></h6>
+        <br>
+
+        <button class="back-button" onclick="return show('fpg1','fpg2');">GO BACK</button>
+        <button type="submit" id="form-button" class="form-button" onclick="checkValidation2(); getName();">NEXT</button><br>
+      </div>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 3 -->
+    <section class="form-page-3" id="fpg3" style="display: none;">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 8 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="9" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name"></h6>
+        <h6 class="form-profile-info"></h6>
+
+        <h1 class="form-title">Tell me about yourself</h1>
+
+        <input name="_fname" type="text" autocomplete="off" class="form-control" id="firstname" placeholder="First Name" required><br>
+        <input name="_lname" type="text" autocomplete="off" class="form-control" id="lastname" placeholder="Last Name" required><br>
+        <label class="autofill-label" for="email" onclick="displayModalThree();">Autofilled</label><br>
+        <input name="email"  type="email" autocomplete="off" class="form-control" placeholder="Email Address" id="email"><br>
+        <label class="autofill-label" onclick="displayModalThree();" for="phone">Autofilled</label><br>
+        <input name="_phone" type="tel" class="form-control" placeholder="Phone Number (ex. 123-456-7890)" id="phone" aria-invalid="false">
+        <h6 class="h6-error" id="phone-error"></h6>
+
+        <button class="back-button" onclick="return show('fpg2','fpg3');">GO BACK</button>
+        <button type="submit" id="form-button" class="form-button" onclick="checkValidation3(); getName()">NEXT</button><br>
+      </div>
+      </div>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 4 -->
+    <section class="form-page-4" id="fpg4" style="display: none;">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 8 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="13" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name"></h6>
+        <h6 class="form-profile-info"></h6>
+
+        <h1 id="form-title-fpg4" class="form-title"></h1> <!-- Element Tag to fetch user's first name -->
+        <span class="ap-dropdown-menu">
+          <div>
+            <span class="ap-suggestions">
+              <label class="autofill-label" onclick="displayModalThree();" for="address-input">Autofilled</label>
+              <input type="address" class="form-control" name="_address" id="address-input"
+                placeholder="Street Address" required><br>
+              <input type="address" class="form-control" name="_city" id="city-input"
+                placeholder="City, Country" required><br>
+              <input type="address" class="form-control" name="Unit/Apartment #" id="numberinput" placeholder="Apt/Unit #"><br>
+              <input class="mailing-checkbox" id="cb-address" type="checkbox">
+              <label class="mailing-checkbox" for="cb-address">Same as Mailing</label>
+              <div class="ap-suggestion">
+                <span class="ap-suggestion-icon"><svg></svg></span>
+                <span class="ap-name"></span>
+                <span class="ap-address"></span>
+              </div>
+            </span>
+          </div>
+        </span>
+
+        <button class="back-button" onclick="return show('fpg3','fpg4');">GO BACK</button>
+        <button type="submit" id="form-button" class="form-button" onclick="checkValidation4();">NEXT</button><br>
+      </div>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 5 -->
+    <section class="form-page-5" id="fpg5" style="display: none;">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 7 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="17" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name"></h6>
+        <h6 class="form-profile-info"></h6>
+
+        <h1 class="form-title">Where do you want us to send your mail to?</h1>
+        <h1 class="form-title" style="font-size: 18px; font-weight: 400;">(Mailing Address)</h1>
+
+        <span class="ap-dropdown-menu">
+          <div>
+            <span class="ap-suggestions">
+              <input type="address" class="form-control" name="Mailing Address" id="maddress-input"
+                placeholder="Street Address" required><br>
+              <input type="address" class="form-control" name="Mailing Address - City" id="mcity-input"
+                placeholder="City, Country" required><br>
+              <input type="address" class="form-control" name="Mailing Address - Unit/Apartment #" id="numberinput" placeholder="Apt/Unit #">
+              <div class="ap-suggestion">
+                <span class="ap-suggestion-icon"><svg></svg></span>
+                <span class="ap-name"></span>
+                <span class="ap-address"></span>
+              </div>
+            </span>
+          </div>
+        </span>
+
+        <button class="back-button" onclick="return show('fpg4','fpg5');">GO BACK</button>
+        <button type="submit" id="form-button" class="form-button" onclick="checkValidation5();">NEXT</button><br>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 6 -->
+    <section class="form-page-6" id="fpg6" style="display: none;">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 7 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="21" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name"></h6>
+        <h6 class="form-profile-info"></h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 class="form-title">What brings you to boardwalk?</h1>
+        <div class="radio-wrapper">
+          <div type="radio" class="radio-card" id="radio-card-1">
+            <img class="radio-card-img" src="images/sad.svg" alt="Not happy with provider">
+            <h1 class="radio-card-title">Not happy with my provider</h1>
+            <input type="radio" name="What brings you to boardwalk?" id="radio-1" value="Not happy with my provider">
+          </div>
+          <div type="radio" class="radio-card" id="radio-card-2">
+            <img class="radio-card-img" src="images/travel-plans.svg" alt="Better coverage at Boardwalk">
+            <h1 class="radio-card-title">Looking for better coverage</h1>
+            <input type="radio" name="What brings you to boardwalk?" id="radio-2" value="Looking for better coverage">
+          </div>
+          <div type="radio-radio" class="radio-card" id="radio-card-3">
+            <img class="radio-card-img" src="images/data.svg" alt="Boardwalk offers competitive pricing">
+            <h1 class="radio-card-title">Looking for more competitive pricing</h1>
+            <input type="radio" name="What brings you to boardwalk?" id="radio-3"
+              value="Looking for more competitive pricing">
+          </div>
+          <div type="radio" class="radio-card" id="radio-card-4">
+            <img class="radio-card-img" src="images/destination.svg" alt="Starting a new venture, perhaps with Boardwalk"><br><br>
+            <h1 class="radio-card-title">Starting a new <br>venture</h1>
+            <input type="radio" name="What brings you to boardwalk?" id="radio-4" value="Starting a new venture">
+          </div><br><br><br>
+        </div>
+        <h6 id="radio-alert-one" value=""></h6>
+        <button class="back-button" onclick="checkAddressBack()">GO BACK</button>
+        <button type="submit" id="form-button" class="form-button" onclick="checkValidation6();">NEXT</button><br>
+      </div>
+    </section>
+    <!--------------->
+
+    <!--------------------------------------- MY INSURANCE NEEDS -------------------------------------------------->
+
+    <!-- PAGE 7 -->
+    <section class="form-page-7" id="fpg7" style="display: none;">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 6 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="25" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 class="form-title">Do you own the building you operate from?</h1><br><br>
+        <div class="radio-wrapper">
+          <div type="radio" class="radio-card yesno" id="radio-card-5">
+            <img class="radio-yesno-img" src="images/confirm.svg" alt="Confirm Checkmark"><br><br>
+            <input type="radio" name="Do you own the building you operate from?" id="radio-5" value="Yes">
+          </div>
+          <div type="radio" class="radio-card yesno" id="radio-card-6">
+            <img class="radio-yesno-img" src="images/cancel.svg" alt="Decline Checkmark"><br><br>
+            <input type="radio" name="Do you own the building you operate from?" id="radio-6" value="No">
+          </div>
+        </div>
+        <h6 id="radio-alert-one" value=""></h6>
+      <button class="back-button" onclick="return show('fpg6','fpg7');">GO BACK</button>
+      <button type="submit" id="form-button" class="form-button" onclick="checkValidation7();">NEXT</button><br>
+      </div>
+      </div>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 8 -->
+    <section class="form-page-8" id="fpg8" style="display: none;">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 6 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="29" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 class="form-title">Do you store the content at your business location?</h1><br><br>
+        <div class="radio-wrapper">
+          <div type="radio" class="radio-card yesno" id="radio-card-7">
+            <img class="radio-yesno-img" src="images/confirm.svg" alt="Confirm Checkmark"><br><br>
+            <input type="radio" name="Do you store the content at your business location?" id="radio-7" value="Yes">
+          </div>
+          <div type="radio" class="radio-card yesno" id="radio-card-8">
+            <img class="radio-yesno-img" src="images/cancel.svg" alt="Decline Checkmark"><br><br>
+            <input type="radio" name="Do you store the content at your business location?" id="radio-8" value="No">
+          </div>
+        </div>
+        <h6 id="radio-alert-two" value=""></h6>
+      <button class="back-button" onclick="return show('fpg7','fpg8');">GO BACK</button>
+      <button type="submit" id="form-button" class="form-button" onclick="checkValidation8();">NEXT</button><br>
+      </div>    
+    </section>
+    <!--------------->
+
+    <!-- PAGE 9 -->
+    <section class="form-page-9" id="fpg9" style="display: none">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 6 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="34" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6> 
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 class="form-title">Do you have any business items that leave your premise?</h1><br><br>
+        <div class="radio-wrapper">
+          <div type="radio" class="radio-card yesno" id="radio-card-9">
+            <img class="radio-yesno-img" src="images/confirm.svg" alt="Confirm Checkmark"><br><br>
+            <input type="radio" name="Do you have any business items that leave your premise?" id="radio-9" value="Yes">
+          </div>
+          <div type="radio" class="radio-card yesno" id="radio-card-10">
+            <img class="radio-yesno-img" src="images/cancel.svg" alt="Decline Checkmark"><br><br>
+            <input type="radio" name="Do you have any business items that leave your premise?" id="radio-10" value="No">
+          </div>
+        </div>
+        <h6 id="radio-alert-three" value=""></h6>
+      <button class="back-button" onclick="return show('fpg8','fpg9');">GO BACK</button>
+      <button type="submit" id="form-button" class="form-button" onclick="checkValidation9();">NEXT</button><br>
+      </div>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 10 -->
+      <section class="form-page-10" id="fpg10" style="display: none">
+        <div class="form">
+          <h6 class="form-progress-bar-description">Estimated time: 6 minutes</h6>
+          <progress class="progress-bar" id="form-progress-bar" value="38" max="100"></progress><br><br>
+          <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+          <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+          <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+          <h6 class="form-profile-name">Jake Doe</h6>
+          <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+          <button class="help-button">
+            <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+              Need help? We can take it from here</a>
+          </button>
+
+          <h1 class="form-title">Do you have any business vehicles that you would like to insure?</h1><br><br>
+          <div class="radio-wrapper">
+          <div type="radio" class="radio-card yesno" id="radio-card-11">
+            <img class="radio-yesno-img" src="images/confirm.svg" alt="Confirm Checkmark"><br><br>
+            <input type="radio" name="Do you have any business vehicles that would like to insure?" id="radio-11" value="Yes">
+          </div>
+          <div type="radio" class="radio-card yesno" id="radio-card-12">
+            <img class="radio-yesno-img" src="images/cancel.svg" alt="Decline Checkmark"><br><br>
+            <input type="radio" name="Do you have any business vehicles that would like to insure?" id="radio-12" value="No">
+          </div>
+        </div>
+        <h6 id="radio-alert-four" value=""></h6>
+        <button class="back-button" onclick="return show('fpg9','fpg10');">GO BACK</button>
+        <button type="submit" id="form-button" class="form-button" onclick="checkValidation10();">NEXT</button><br>
+       </div>
+      </section>
+
+      <!--------------------------------------- MY INSURANCE NEEDS -------------------------------------------------->
+
+      <!-- PAGE 11 -->
+      <section class="form-page-11" id="fpg11" style="display: none">
+        <div class="form">
+          <h6 class="form-progress-bar-description">Estimated time: 6 minutes</h6>
+          <progress class="progress-bar" id="form-progress-bar" value="43" max="100"></progress><br><br>
+          <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+          <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+          <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+          <h6 class="form-profile-name">Jake Doe</h6>
+          <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+          <button class="help-button">
+            <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+              Need help? We can take it from here</a>
+          </button>
+
+          <h1 class="form-title">When would you need this policy to start?</h1><br><br>
+
+          <input name="Policy Start Date" type="date" class="form-control" placeholder="Policy Start Date"
+          required autocomplete="off" id="policystart-date"><br><br><br>
+        </div>
+
+        <!-- MOVE THIS -->
+          
+          <button type="button" id="back-button" class="back-button" onclick="return show('fpg10', 'fpg11');">GO BACK</button>
+          <button type="submit" id="form-button" class="form-button" onclick="myInsuranceNeedsAnimation(); return show('fpg12', 'fpg11');" >NEXT</button><br>
+        </div>
+      </section>
+      <!--------------->
+
+        <!-- PAGE 12 -->
+        <section class="form-page-12" id="fpg12" style="display: none">
+          <div class="form">
+            <h6 class="form-progress-bar-description">Estimated time: 5 minutes</h6>
+            <progress class="progress-bar" id="form-progress-bar" value="47" max="100"></progress><br><br>
+            <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <h6 class="form-profile-name">Jake Doe</h6>
+            <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+            <button class="help-button">
+              <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                Need help? We can take it from here</a>
+            </button>
+      
+          <h1 id="form-title-fpg12" class="form-title"></h1><br><br>
+          <label class="autofill-label" onclick="displayModalThree();" for="yearStarted">Autofilled</label><br>
+          <select class="form-select" name="When was your business created?" id="yearStarted">
+            <option id="businessyear-option" selected="true" disabled="disabled">Year</option>
+          </select>
+
+          <h6 class="h6-error" id="select-error1"></h6>
+          <br>
+
+            <button class="back-button" onclick="return show('fpg11','fpg12');">GO BACK</button>
+            <button type="submit" id="form-button" class="form-button" onclick="checkValidation12();">NEXT</button><br>
+          </div>
+          </div>
+        </section>
+        <!--------------->
+
+    <!-- PAGE 13 -->
+    <section class="form-page-13" id="fpg13" style="display: none;">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 5 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="52" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 id="form-title-fpg13" class="form-title"></h1><br>
+           <input type="name" class="form-control" name="Insurance Company" id="insurance-company" list="companies-datalist"
+           placeholder="Insurance Company" required autocomplete="off"><br>
+           <datalist id="companies-datalist">
+             <option value="Allianz"></option>
+             <option value="Allstate"></option>
+             <option value="April Canada Inc."></option>
+             <option value="Aurora Underwriting Services Inc."></option>
+             <option value="Aviva"></option>
+             <option value="Burns & Wilcox Canada"></option>
+             <option value="Cansure"></option>
+             <option value="CHES Special Risk Inc."></option>
+             <option value="Chubb"></option>
+             <option value="Chutter Underwriting Services"></option>
+             <option value="Co-operators"></option>
+             <option value="Desjardins"></option>
+             <option value="Ecclesiastical Insurance"></option>
+             <option value="Echelon Insurance"></option>
+             <option value="Economical"></option>
+             <option value="Evolution Insurance Inc."></option>
+             <option value="Federated Insurance"></option>
+             <option value="FM Global"></option>
+             <option value="Frank Cowan Company"></option>
+             <option value="GameDay Insurance Inc."></option>
+             <option value="Guardian Risk Managers Ltd."></option>
+             <option value="HSB BI&I"></option>
+             <option value="Intact"></option>
+             <option value="K&K Canada"></option>
+             <option value="La Capitale"></option>
+             <option value="Liberty Mutual Canada"></option>
+             <option value="Lloyd's Underwriters"></option>
+             <option value="MedThree Insurance Group"></option>
+             <option value="Milnco Insurance Broker Solution Centre"></option>
+             <option value="Northbridge"></option>
+             <option value="Pembridge"></option>
+             <option value="Premier"></option>
+             <option value="Risk-Can Underwriting Managers"></option>
+             <option value="RSA"></option>
+             <option value="Saskatchewan Government Insurance"></option>
+             <option value="South Western Group"></option>
+             <option value="Sports & Fitness Insurance Canada"></option>
+             <option value="Stewart Specialty Risk Underwriting Ltd."></option>
+             <option value="Strategic Underwriting Managers Inc."></option>
+             <option value="Sutton Special Risk"></option>
+             <option value="Tokio Marine HCC"></option>
+             <option value="Totten Insurance Group"></option>
+             <option value="Travelers"></option>
+             <option value="Trinity Underwriting Managers Ltd."></option>
+             <option value="Trisura Guarantee Insurance Company"></option>
+             <option value="Unica Insurance"></option>
+             <option value="Unique Risks Ltd."></option>
+             <option value="Victor Insurance Managers Inc."></option>
+             <option value="Wawanesa"></option>
+             <option value="Other"></option>
+           </datalist><br>
+   
+           <div class="rangeslider">
+           <label class="date-label" for="insurance-age-list">How long have you had insurance?</label><br>
+           <input name="How long have you had business insurance? (Years)" type="range" step="1" min="0" max="11" value="0" list="insurance-age-list" class="slider" id="insuranceSliderRange"><br>
+           <span id="insuranceage-value">Never</span>
+           <datalist id="insurance-age-list">
+             <option value="0"></option>
+             <option value="1"></option>
+             <option value="2"></option>
+             <option value="3"></option>
+             <option value="4"></option>
+             <option value="5"></option>
+             <option value="6"></option>
+             <option value="7"></option>
+             <option value="8"></option>
+             <option value="9"></option>
+             <option value="10"></option>
+             <option value="11"></option>
+           </datalist><br>
+           </div><br><br>
+
+        <button class="back-button" onclick="return show('fpg12','fpg13');">GO BACK</button>
+        <button type="submit" id="form-button" class="form-button" onclick="checkValidation13(); getName();">NEXT</button><br>
+      </div>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 14 -->
+    <section class="form-page-14" id="fpg14" style="display: none">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 5 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="56" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 class="form-title">Tell me about your operations</h1><br><br>
+
+        <input name="Operation 1" id="operation" class="form-control"
+        placeholder="Please specify operation" required list="operation1-list" autocomplete="off">
+
+        <img src="images/button-add.png" alt="add-btn" class="img-operation" title="Add an operation" id="btn-add"
+        onclick="addOperation();"><br>
+
+        <input name="Operation 2" style="display: none;" list="operation1-list" id="operation-2" class="form-control"
+        placeholder="Specify additional operation">
+        <img src="images/button-remove.png" alt="add-btn" title="Remove an operation" style="display: none;"
+        class="img-operation" id="btn-remove-2" onclick="removeOperation2();">
+
+        <datalist id="operation1-list">
+          <option value="Administration of Air and Water Resource and Solid Waste Management Programs"></option>
+          <option value="Administration of Conservation Programs"></option>
+          <option value="Administration of Education Programs"></option>
+          <option value="Administration of General Economic Programs"></option>
+          <option value="Administration of Housing Programs"></option>
+          <option value="Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)"></option>
+          <option value="Administration of Public Health Programs"></option>
+          <option value="Administration of Urban Planning and Community and Rural Development"></option>
+          <option value="Administration of Veterans' Affairs"></option>
+          <option value="Administrative Management and General Management Consulting Services"></option>
+          <option value="Advertising Agencies"></option>
+          <option value="Advertising Material Distribution Services"></option>
+          <option value="Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures"></option>
+          <option value="All Other Automotive Repair and Maintenance"></option>
+          <option value="All Other Business Support Services"></option>
+          <option value="All Other Consumer Goods Rental"></option>
+          <option value="All Other Health and Personal Care Stores"></option>
+          <option value="All Other Home Furnishings Stores"></option>
+          <option value="All Other Information Services"></option>
+          <option value="All Other Insurance Related Activities"></option>
+          <option value="All Other Legal Services"></option>
+          <option value="All Other Miscellaneous Schools and Instruction"></option>
+          <option value="All Other Miscellaneous Store Retailers (except Tobacco Stores)"></option>
+          <option value="All Other Miscellaneous Waste Management Services"></option>
+          <option value="All Other Nondepository Credit Intermediation"></option>
+          <option value="All Other Personal Services"></option>
+          <option value="All Other Professional, Scientific, and Technical Services"></option>
+          <option value="All Other Publishers"></option>
+          <option value="All Other Specialty Food Stores"></option>
+          <option value="All Other Specialty Trade Contractors"></option>
+          <option value="All Other Support Activities for Transportation"></option>
+          <option value="All Other Support Services"></option>
+          <option value="All Other Telecommunications"></option>
+          <option value="All Other Travel Arrangement and Reservation Services"></option>
+          <option value="All Other Traveler Accommodation"></option>
+          <option value="Amusement and Recreation Industries"></option>
+          <option value="Animal (except Poultry) Slaughtering"></option>
+          <option value="Appliance Repair and Maintenance"></option>
+          <option value="Apprenticeship Training"></option>
+          <option value="Architectural Services"></option>
+          <option value="Armored Car Services"></option>
+          <option value="Art Dealers"></option>
+          <option value="Assisted Living Facilities for the Elderly"></option>
+          <option value="Automobile Driving Schools"></option>
+          <option value="Automotive Body, Paint, and Interior Repair and Maintenance"></option>
+          <option value="Automotive Exhaust System Repair"></option>
+          <option value="Automotive Glass Replacement Shops"></option>
+          <option value="Automotive Oil Change and Lubrication Shops"></option>
+          <option value="Automotive Parts and Accessories Stores"></option>
+          <option value="Automotive Transmission Repair"></option>
+          <option value="Baked Goods Stores"></option>
+          <option value="Barber Shops"></option>
+          <option value="Beauty Salons"></option>
+          <option value="Bed-and-Breakfast Inns"></option>
+          <option value="Beer and Ale Merchant Wholesalers"></option>
+          <option value="Beer, Wine, and Liquor Stores"></option>
+          <option value="Boat Dealers"></option>
+          <option value="Book Publishers"></option>
+          <option value="Book Stores"></option>
+          <option value="Book, Periodical, and Newspaper Merchant Wholesalers"></option>
+          <option value="Bottled Water Manufacturing"></option>
+          <option value="Bowling Centers"></option>
+          <option value="Breweries"></option>
+          <option value="Brick, Stone, and Related Construction Material Merchant Wholesalers"></option>
+          <option value="Building Inspection Services"></option>
+          <option value="Business and Secretarial Schools"></option>
+          <option value="Business Associations"></option>
+          <option value="Cable and Other Subscription Programming"></option>
+          <option value="Cafeterias, Grill Buffets, and Buffets"></option>
+          <option value="Car Washes"></option>
+          <option value="Carpet and Upholstery Cleaning Services"></option>
+          <option value="Caterers"></option>
+          <option value="Cemeteries and Crematories"></option>
+          <option value="Child and Youth Services"></option>
+          <option value="Child Day Care Services"></option>
+          <option value="Children's and Infants' Clothing Stores"></option>
+          <option value="Civic and Social Organizations"></option>
+          <option value="Claims Adjusting"></option>
+          <option value="Clothing Accessories Stores"></option>
+          <option value="Coal and Other Mineral and Ore Merchant Wholesalers"></option>
+          <option value="Coffee and Tea Manufacturing"></option>
+          <option value="Coin-Operated Laundries and Drycleaners"></option>
+          <option value="Collection Agencies"></option>
+          <option value="Colleges, Universities, and Professional Schools"></option>
+          <option value="Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing"></option>
+          <option value="Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance"></option>
+          <option value="Commercial and Institutional Building Construction"></option>
+          <option value="Commercial Bakeries"></option>
+          <option value="Commercial Banking"></option>
+          <option value="Commercial Photography"></option>
+          <option value="Commodity Contracts Brokerage"></option>
+          <option value="Communication Equipment Repair and Maintenance"></option>
+          <option value="Community Food Services"></option>
+          <option value="Computer and Computer Peripheral Equipment and Software Merchant Wholesalers"></option>
+          <option value="Computer and Office Machine Repair and Maintenance"></option>
+          <option value="Computer Facilities Management Services"></option>
+          <option value="Computer Systems Design Services"></option>
+          <option value="Computer Training"></option>
+          <option value="Confectionery and Nut Stores"></option>
+          <option value="Confectionery Merchant Wholesalers"></option>
+          <option value="Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers"></option>
+          <option value="Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing"></option>
+          <option value="Consumer Electronics and Appliances Rental"></option>
+          <option value="Consumer Electronics Repair and Maintenance"></option>
+          <option value="Consumer Lending"></option>
+          <option value="Continuing Care Retirement Communities"></option>
+          <option value="Convenience Stores"></option>
+          <option value="Convention and Trade Show Organizers"></option>
+          <option value="Convention and Visitors Bureaus"></option>
+          <option value="Cookie and Cracker Manufacturing"></option>
+          <option value="Cosmetics, Beauty Supplies, and Perfume Stores"></option>
+          <option value="Cosmetology and Barber Schools"></option>
+          <option value="Couriers and Express Delivery Services"></option>
+          <option value="Court Reporting and Stenotype Services"></option>
+          <option value="Credit Bureaus"></option>
+          <option value="Credit Card Issuing"></option>
+          <option value="Credit Unions"></option>
+          <option value="Custom Computer Programming Services"></option>
+          <option value="Dairy Product (except Dried or Canned) Merchant Wholesalers"></option>
+          <option value="Dance Companies"></option>
+          <option value="Data Processing, Hosting, and Related Services"></option>
+          <option value="Department Stores"></option>
+          <option value="Diet and Weight Reducing Centers"></option>
+          <option value="Direct Health and Medical Insurance Carriers"></option>
+          <option value="Direct Life Insurance Carriers"></option>
+          <option value="Direct Mail Advertising"></option>
+          <option value="Direct Property and Casualty Insurance Carriers"></option>
+          <option value="Direct Title Insurance Carriers"></option>
+          <option value="Directory and Mailing List Publishers"></option>
+          <option value="Distilleries"></option>
+          <option value="Document Preparation Services"></option>
+          <option value="Dog and Cat Food Manufacturing"></option>
+          <option value="Drafting Services"></option>
+          <option value="Drinking Places (Alcoholic Beverages)"></option>
+          <option value="Drive-In Motion Picture Theaters"></option>
+          <option value="Drugs and Druggists' Sundries Merchant Wholesalers"></option>
+          <option value="Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour"></option>
+          <option value="Drycleaning and Laundry Services (except Coin-Operated)"></option>
+          <option value="Drywall and Insulation Contractors"></option>
+          <option value="Educational Support Services"></option>
+          <option value="Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers"></option>
+          <option value="Electrical Contractors and Other Wiring Installation Contractors"></option>
+          <option value="Electronic Shopping and Mail-Order Houses"></option>
+          <option value="Electronics Stores"></option>
+          <option value="Elementary and Secondary Schools"></option>
+          <option value="Emergency and Other Relief Services"></option>
+          <option value="Employment Placement Agencies"></option>
+          <option value="Engineering Services"></option>
+          <option value="Environment, Conservation and Wildlife Organizations"></option>
+          <option value="Environmental Consulting Services"></option>
+          <option value="Exam Preparation and Tutoring"></option>
+          <option value="Executive and Legislative Offices, Combined"></option>
+          <option value="Executive Offices"></option>
+          <option value="Executive Search Services"></option>
+          <option value="Exterminating and Pest Control Services"></option>
+          <option value="Facilities Support Services"></option>
+          <option value="Family Clothing Stores"></option>
+          <option value="Family Planning Centers"></option>
+          <option value="Farm and Garden Machinery and Equipment Merchant Wholesalers"></option>
+          <option value="Farm Product Warehousing and Storage"></option>
+          <option value="Farm Supplies Merchant Wholesalers"></option>
+          <option value="Financial Transactions Processing, Reserve, and Clearinghouse Activities"></option>
+          <option value="Fine Arts Schools"></option>
+          <option value="Finish Carpentry Contractors"></option>
+          <option value="Fish and Seafood Markets"></option>
+          <option value="Fish and Seafood Merchant Wholesalers"></option>
+          <option value="Fitness and Recreational Sports Centers"></option>
+          <option value="Flavoring Syrup and Concentrate Manufacturing"></option>
+          <option value="Flight Training"></option>
+          <option value="Floor Covering Stores"></option>
+          <option value="Flooring Contractors"></option>
+          <option value="Florists"></option>
+          <option value="Flower, Nursery Stock, and Florists' Supplies Merchant Wholesalers"></option>
+          <option value="Food (Health) Supplement Stores"></option>
+          <option value="Food Manufacturing"></option>
+          <option value="Food Service Contractors"></option>
+          <option value="Footwear and Leather Goods Repair"></option>
+          <option value="Footwear Merchant Wholesalers"></option>
+          <option value="Formal Wear and Costume Rental"></option>
+          <option value="Framing Contractors"></option>
+          <option value="Freight (except Used Goods) Trucking, Local"></option>
+          <option value="Freight (except Used Goods) Trucking, Long-Distance"></option>
+          <option value="Freight Transportation Arrangement"></option>
+          <option value="Fresh Fruit and Vegetable Merchant Wholesalers"></option>
+          <option value="Frozen Cakes, Pies, and Other Pastries Manufacturing"></option>
+          <option value="Fruit and Vegetable Markets"></option>
+          <option value="Fuel Dealers"></option>
+          <option value="Funeral Homes and Funeral Services"></option>
+          <option value="Furniture Merchant Wholesalers"></option>
+          <option value="Furniture Stores"></option>
+          <option value="Gasoline Stations with Convenience Stores"></option>
+          <option value="General Automotive Repair"></option>
+          <option value="General Freight Trucking, Local"></option>
+          <option value="General Freight Trucking, Long-Distance, Less Than Truckload"></option>
+          <option value="General Freight Trucking, Long-Distance, Truckload"></option>
+          <option value="General Line Grocery Merchant Wholesalers"></option>
+          <option value="General Rental Centers"></option>
+          <option value="General Warehousing and Storage"></option>
+          <option value="Gift, Novelty, and Souvenir Stores"></option>
+          <option value="Glass and Glazing Contractors"></option>
+          <option value="Golf Courses and Country Clubs"></option>
+          <option value="Grain and Field Bean Merchant Wholesalers"></option>
+          <option value="Grantmaking Foundations"></option>
+          <option value="Graphic Design Services"></option>
+          <option value="Greeting Card Publishers"></option>
+          <option value="Hardware Merchant Wholesalers"></option>
+          <option value="Hardware Stores"></option>
+          <option value="Hazardous Waste Collection"></option>
+          <option value="Hazardous Waste Treatment and Disposal"></option>
+          <option value="Health and Welfare Funds"></option>
+          <option value="Highway, Street, and Bridge Construction"></option>
+          <option value="Hobby, Toy, and Game Stores"></option>
+          <option value="Home and Garden Equipment Repair and Maintenance"></option>
+          <option value="Home Centers"></option>
+          <option value="Home Furnishing Merchant Wholesalers"></option>
+          <option value="Home Health Equipment Rental"></option>
+          <option value="Hotels (except Casino Hotels) and Motels"></option>
+          <option value="Household Appliance Stores"></option>
+          <option value="Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers"></option>
+          <option value="Human Resources Consulting Services"></option>
+          <option value="Ice Manufacturing"></option>
+          <option value="Independent Artists, Writers, and Performers"></option>
+          <option value="Industrial and Personal Service Paper Merchant Wholesalers"></option>
+          <option value="Industrial Building Construction"></option>
+          <option value="Industrial Design Services"></option>
+          <option value="Industrial Launderers"></option>
+          <option value="Industrial Machinery and Equipment Merchant Wholesalers"></option>
+          <option value="Industrial Supplies Merchant Wholesalers"></option>
+          <option value="Insurance Agencies and Brokerages"></option>
+          <option value="Interior Design Services"></option>
+          <option value="International Trade Financing"></option>
+          <option value="Internet Publishing and Broadcasting and Web Search Portals"></option>
+          <option value="Investigation Services"></option>
+          <option value="Investment Advice"></option>
+          <option value="Investment Banking and Securities Dealing"></option>
+          <option value="Janitorial Services"></option>
+          <option value="Jewelry Stores"></option>
+          <option value="Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers"></option>
+          <option value="Junior Colleges"></option>
+          <option value="Labor Unions and Similar Labor Organizations"></option>
+          <option value="Land Subdivision"></option>
+          <option value="Landscape Architectural Services"></option>
+          <option value="Landscaping Services"></option>
+          <option value="Language Schools"></option>
+          <option value="Legislative Bodies"></option>
+          <option value="Lessors of Miniwarehouses and Self-Storage Units"></option>
+          <option value="Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)"></option>
+          <option value="Lessors of Nonresidential Buildings (except Miniwarehouses)"></option>
+          <option value="Lessors of Other Real Estate Property"></option>
+          <option value="Lessors of Residential Buildings and Dwellings"></option>
+          <option value="Libraries and Archives"></option>
+          <option value="Linen Supply"></option>
+          <option value="Livestock Merchant Wholesalers"></option>
+          <option value="Local Messengers and Local Delivery"></option>
+          <option value="Locksmiths"></option>
+          <option value="Luggage and Leather Goods Stores"></option>
+          <option value="Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers"></option>
+          <option value="Manufactured (Mobile) Home Dealers"></option>
+          <option value="Marinas"></option>
+          <option value="Marketing Consulting Services"></option>
+          <option value="Marketing Research and Public Opinion Polling"></option>
+          <option value="Masonry Contractors"></option>
+          <option value="Materials Recovery Facilities"></option>
+          <option value="Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing"></option>
+          <option value="Meat and Meat Product Merchant Wholesalers"></option>
+          <option value="Meat Markets"></option>
+          <option value="Meat Processed from Carcasses"></option>
+          <option value="Media Buying Agencies"></option>
+          <option value="Media Representatives"></option>
+          <option value="Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers"></option>
+          <option value="Men's and Boys' Clothing and Furnishings Merchant Wholesalers"></option>
+          <option value="Men's Clothing Stores"></option>
+          <option value="Metal Service Centers and Other Metal Merchant Wholesalers"></option>
+          <option value="Miscellaneous Financial Investment Activities"></option>
+          <option value="Miscellaneous Intermediation"></option>
+          <option value="Mobile Food Services"></option>
+          <option value="Monetary Authorities-Central Bank"></option>
+          <option value="Mortgage and Nonmortgage Loan Brokers"></option>
+          <option value="Motion Picture and Video Distribution"></option>
+          <option value="Motion Picture and Video Production"></option>
+          <option value="Motion Picture Theaters (except Drive-Ins)"></option>
+          <option value="Motor Vehicle Parts (Used) Merchant Wholesalers"></option>
+          <option value="Motor Vehicle Supplies and New Parts Merchant Wholesalers"></option>
+          <option value="Motorcycle, ATV, and All Other Motor Vehicle Dealers"></option>
+          <option value="Music Publishers"></option>
+          <option value="Musical Groups and Artists"></option>
+          <option value="Musical Instrument and Supplies Stores"></option>
+          <option value="Nail Salons"></option>
+          <option value="New Car Dealers"></option>
+          <option value="News Dealers and Newsstands"></option>
+          <option value="News Syndicates"></option>
+          <option value="Newspaper Publishers"></option>
+          <option value="Nonresidential Property Managers"></option>
+          <option value="Nursery, Garden Center, and Farm Supply Stores"></option>
+          <option value="Nursing Care Facilities (Skilled Nursing Facilities)"></option>
+          <option value="Office Administrative Services"></option>
+          <option value="Office Equipment Merchant Wholesalers"></option>
+          <option value="Office Machinery and Equipment Rental and Leasing"></option>
+          <option value="Office Supplies and Stationery Stores"></option>
+          <option value="Offices of All Other Miscellaneous Health Practitioners"></option>
+          <option value="Offices of Bank Holding Companies"></option>
+          <option value="Offices of Certified Public Accountants"></option>
+          <option value="Offices of Chiropractors"></option>
+          <option value="Offices of Dentists"></option>
+          <option value="Offices of Lawyers"></option>
+          <option value="Offices of Mental Health Practitioners (except Physicians)"></option>
+          <option value="Offices of Notaries"></option>
+          <option value="Offices of Optometrists"></option>
+          <option value="Offices of Other Holding Companies"></option>
+          <option value="Offices of Physical, Occupational and Speech Therapists, and Audiologists"></option>
+          <option value="Offices of Physicians (except Mental Health Specialists)"></option>
+          <option value="Offices of Physicians, Mental Health Specialists"></option>
+          <option value="Offices of Podiatrists"></option>
+          <option value="Offices of Real Estate Agents and Brokers"></option>
+          <option value="Offices of Real Estate Appraisers"></option>
+          <option value="Oil and Gas Pipeline and Related Structures Construction"></option>
+          <option value="Open-End Investment Funds"></option>
+          <option value="Ophthalmic Goods Merchant Wholesalers"></option>
+          <option value="Optical Goods Stores"></option>
+          <option value="Other Accounting Services"></option>
+          <option value="Other Activities Related to Credit Intermediation"></option>
+          <option value="Other Activities Related to Real Estate"></option>
+          <option value="Other Automotive Mechanical and Electrical Repair and Maintenance"></option>
+          <option value="Other Building Equipment Contractors"></option>
+          <option value="Other Building Finishing Contractors"></option>
+          <option value="Other Building Material Dealers"></option>
+          <option value="Other Business Service Centers (including Copy Shops)"></option>
+          <option value="Other Clothing Stores"></option>
+          <option value="Other Commercial and Industrial Machinery and Equipment Rental and Leasing"></option>
+          <option value="Other Commercial Equipment Merchant Wholesalers"></option>
+          <option value="Other Computer Related Services"></option>
+          <option value="Other Construction Material Merchant Wholesalers"></option>
+          <option value="Other Direct Insurance (except Life, Health, and Medical) Carriers"></option>
+          <option value="Other Electronic and Precision Equipment Repair and Maintenance"></option>
+          <option value="Other Electronic Parts and Equipment Merchant Wholesalers"></option>
+          <option value="Other Farm Product Raw Material Merchant Wholesalers"></option>
+          <option value="Other Financial Vehicles"></option>
+          <option value="Other Foundation, Structure, and Building Exterior Contractors"></option>
+          <option value="Other Gasoline Stations"></option>
+          <option value="Other Grantmaking and Giving Services"></option>
+          <option value="Other Grocery and Related Products Merchant Wholesalers"></option>
+          <option value="Other Heavy and Civil Engineering Construction"></option>
+          <option value="Other Individual and Family Services"></option>
+          <option value="Other Insurance Funds"></option>
+          <option value="Other Management Consulting Services"></option>
+          <option value="Other Miscellaneous Durable Goods Merchant Wholesalers"></option>
+          <option value="Other Miscellaneous Manufacturing"></option>
+          <option value="Other Motion Picture and Video Industries"></option>
+          <option value="Other Nonhazardous Waste Treatment and Disposal"></option>
+          <option value="Other Performing Arts Companies"></option>
+          <option value="Other Personal and Household Goods Repair and Maintenance"></option>
+          <option value="Other Personal Care Services"></option>
+          <option value="Other Professional Equipment and Supplies Merchant Wholesalers"></option>
+          <option value="Other Residential Care Facilities"></option>
+          <option value="Other Scientific and Technical Consulting Services"></option>
+          <option value="Other Services Related to Advertising"></option>
+          <option value="Other Services to Buildings and Dwellings"></option>
+          <option value="Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)"></option>
+          <option value="Other Snack Food Manufacturing"></option>
+          <option value="Other Social Advocacy Organizations"></option>
+          <option value="Other Sound Recording Industries"></option>
+          <option value="Other Specialized Design Services"></option>
+          <option value="Other Technical and Trade Schools"></option>
+          <option value="Other Warehousing and Storage"></option>
+          <option value="Other Waste Collection"></option>
+          <option value="Outdoor Advertising"></option>
+          <option value="Outdoor Power Equipment Stores"></option>
+          <option value="Packaged Frozen Food Merchant Wholesalers"></option>
+          <option value="Packaging and Labeling Services"></option>
+          <option value="Packing and Crating"></option>
+          <option value="Paint and Wallpaper Stores"></option>
+          <option value="Paint, Varnish, and Supplies Merchant Wholesalers"></option>
+          <option value="Painting and Wall Covering Contractors"></option>
+          <option value="Parking Lots and Garages"></option>
+          <option value="Passenger Car Leasing"></option>
+          <option value="Passenger Car Rental"></option>
+          <option value="Payroll Services"></option>
+          <option value="Pension Funds"></option>
+          <option value="Periodical Publishers"></option>
+          <option value="Perishable Prepared Food Manufacturing"></option>
+          <option value="Pet and Pet Supplies Stores"></option>
+          <option value="Pet Care (except Veterinary) Services"></option>
+          <option value="Pharmacies and Drug Stores"></option>
+          <option value="Photofinishing Laboratories (except One-Hour)"></option>
+          <option value="Photographic Equipment and Supplies Merchant Wholesalers"></option>
+          <option value="Photography Studios, Portrait"></option>
+          <option value="Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers"></option>
+          <option value="Plastics Materials and Basic Forms and Shapes Merchant Wholesalers"></option>
+          <option value="Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers"></option>
+          <option value="Plumbing, Heating, and Air-Conditioning Contractors"></option>
+          <option value="Political Organizations"></option>
+          <option value="Portfolio Management"></option>
+          <option value="Postal Service"></option>
+          <option value="Poultry and Poultry Product Merchant Wholesalers"></option>
+          <option value="Poultry Processing"></option>
+          <option value="Poured Concrete Foundation and Structure Contractors"></option>
+          <option value="Power and Communication Line and Related Structures Construction"></option>
+          <option value="Printing and Writing Paper Merchant Wholesalers"></option>
+          <option value="Private Mail Centers"></option>
+          <option value="Process, Physical Distribution, and Logistics Consulting Services"></option>
+          <option value="Professional and Management Development Training"></option>
+          <option value="Professional Employer Organizations"></option>
+          <option value="Professional Organizations"></option>
+          <option value="Promoters of Performing Arts, Sports, and Similar Events with Facilities"></option>
+          <option value="Promoters of Performing Arts, Sports, and Similar Events without Facilities"></option>
+          <option value="Public Finance Activities"></option>
+          <option value="Public Relations Agencies"></option>
+          <option value="Radio Networks"></option>
+          <option value="Radio Stations"></option>
+          <option value="Real Estate Credit"></option>
+          <option value="Realty - Commercial Building Owner"></option>
+          <option value="Realty - Industrial Building Owner"></option>
+          <option value="Realty - Multi Family Dwelling Building Owner"></option>
+          <option value="Realty - Residentiali Building Owner"></option>
+          <option value="Record Production and Distribution"></option>
+          <option value="Recreational and Vacation Camps (except Campgrounds)"></option>
+          <option value="Recreational Goods Rental"></option>
+          <option value="Recreational Vehicle Dealers"></option>
+          <option value="Recyclable Material Merchant Wholesalers"></option>
+          <option value="Refrigerated Warehousing and Storage"></option>
+          <option value="Refrigeration Equipment and Supplies Merchant Wholesalers"></option>
+          <option value="Regulation and Administration of Communications, Electric, Gas, and Other Utilities"></option>
+          <option value="Regulation and Administration of Transportation Programs"></option>
+          <option value="Regulation of Agricultural Marketing and Commodities"></option>
+          <option value="Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors"></option>
+          <option value="Reinsurance Carriers"></option>
+          <option value="Religious Organizations"></option>
+          <option value="Remediation Services"></option>
+          <option value="Rendering and Meat Byproduct Processing"></option>
+          <option value="Renovation Contractors"></option>
+          <option value="Repossession Services"></option>
+          <option value="Research and Development in Biotechnology (except Nanobiotechnology)"></option>
+          <option value="Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)"></option>
+          <option value="Research and Development in the Social Sciences and Humanities"></option>
+          <option value="Residential Home Builder"></option>
+          <option value="Residential Intellectual and Developmental Disability Facilities"></option>
+          <option value="Residential Mental Health and Substance Abuse Facilities"></option>
+          <option value="Residential Property Managers"></option>
+          <option value="Residential Remodelers"></option>
+          <option value="Restaurants - take out only"></option>
+          <option value="Restaurants with dine-in"></option>
+          <option value="Retail Bakeries"></option>
+          <option value="Reupholstery and Furniture Repair"></option>
+          <option value="Roasted Nuts and Peanut Butter Manufacturing"></option>
+          <option value="Roofing Contractors"></option>
+          <option value="Roofing, Siding, and Insulation Material Merchant Wholesalers"></option>
+          <option value="Rooming and Boarding Houses, Dormitories, and Workers' Camps"></option>
+          <option value="RV (Recreational Vehicle) Parks and Campgrounds"></option>
+          <option value="Sales Financing"></option>
+          <option value="Satellite Telecommunications"></option>
+          <option value="Savings Institutions"></option>
+          <option value="Seafood Product Preparation and Packaging"></option>
+          <option value="Secondary Market Financing"></option>
+          <option value="Securities and Commodity Exchanges"></option>
+          <option value="Securities Brokerage"></option>
+          <option value="Security Guards and Patrol Services"></option>
+          <option value="Security Systems Services (except Locksmiths)"></option>
+          <option value="Septic Tank and Related Services"></option>
+          <option value="Service Establishment Equipment and Supplies Merchant Wholesalers"></option>
+          <option value="Services for the Elderly and Persons with Disabilities"></option>
+          <option value="Sewing, Needlework, and Piece Goods Stores"></option>
+          <option value="Shoe Stores"></option>
+          <option value="Siding Contractors"></option>
+          <option value="Site Preparation Contractors"></option>
+          <option value="Skiing Facilities"></option>
+          <option value="Snack and Nonalcoholic Beverage Bars - ex. Cafe, Coffee Shop"></option>
+          <option value="Soft Drink Manufacturing"></option>
+          <option value="Software Publishers"></option>
+          <option value="Solid Waste Collection"></option>
+          <option value="Solid Waste Combustors and Incinerators"></option>
+          <option value="Solid Waste Landfill"></option>
+          <option value="Sound Recording Studios"></option>
+          <option value="Space Research and Technology"></option>
+          <option value="Spice and Extract Manufacturing"></option>
+          <option value="Sporting and Recreational Goods and Supplies Merchant Wholesalers"></option>
+          <option value="Sporting Goods Stores"></option>
+          <option value="Sports and Recreation Instruction"></option>
+          <option value="Sports Teams and Clubs"></option>
+          <option value="Stationery and Office Supplies Merchant Wholesalers"></option>
+          <option value="Structural Steel and Precast Concrete Contractors"></option>
+          <option value="Supermarkets and Other Grocery (except Convenience) Stores"></option>
+          <option value="Surveying and Mapping (except Geophysical) Services"></option>
+          <option value="Tax Preparation Services"></option>
+          <option value="Telecommunications Resellers"></option>
+          <option value="Telemarketing Bureaus and Other Contact Centers"></option>
+          <option value="Telephone Answering Services"></option>
+          <option value="Teleproduction and Other Postproduction Services"></option>
+          <option value="Television Broadcasting"></option>
+          <option value="Temporary Help Services"></option>
+          <option value="Testing Laboratories"></option>
+          <option value="Theater Companies and Dinner Theaters"></option>
+          <option value="Third Party Administration of Insurance and Pension Funds"></option>
+          <option value="Tile and Terrazzo Contractors"></option>
+          <option value="Tire and Tube Merchant Wholesalers"></option>
+          <option value="Tire Dealers"></option>
+          <option value="Title Abstract and Settlement Offices"></option>
+          <option value="Tobacco and Tobacco Product Merchant Wholesalers"></option>
+          <option value="Tobacco Stores"></option>
+          <option value="Tour Operators"></option>
+          <option value="Toy and Hobby Goods and Supplies Merchant Wholesalers"></option>
+          <option value="Translation and Interpretation Services"></option>
+          <option value="Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers"></option>
+          <option value="Travel Agencies"></option>
+          <option value="Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing"></option>
+          <option value="Trust, Fiduciary, and Custody Activities"></option>
+          <option value="Trusts, Estates, and Agency Accounts"></option>
+          <option value="Used Car Dealers"></option>
+          <option value="Used Household and Office Goods Moving"></option>
+          <option value="Used Merchandise Stores"></option>
+          <option value="Vending Machine Operators"></option>
+          <option value="Veterinary Services"></option>
+          <option value="Video Tape and Disc Rental"></option>
+          <option value="Vocational Rehabilitation Services"></option>
+          <option value="Voluntary Health Organizations"></option>
+          <option value="Warehouse Clubs and Supercenters"></option>
+          <option value="Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers"></option>
+          <option value="Water and Sewer Line and Related Structures Construction"></option>
+          <option value="Wholesale Trade Agents and Brokers"></option>
+          <option value="Window Treatment Stores"></option>
+          <option value="Wine and Distilled Alcoholic Beverage Merchant Wholesalers"></option>
+          <option value="Wineries"></option>
+          <option value="Wired Telecommunications Carriers"></option>
+          <option value="Wireless Telecommunications Carriers (except Satellite)"></option>
+          <option value="Women's Clothing Stores"></option>
+          <option value="Women's, Children's, and Infants' Clothing and Accessories Merchant Wholesalers"></option>
+        </datalist>
+
+        <br><br><br><br><br>
+
+      <button class="back-button" onclick="return show('fpg13','fpg14');">GO BACK</button>
+      <button type="submit" id="form-button" class="form-button" onclick="checkValidation14(); operationCases(); displayRanges(); getName();">NEXT</button><br>
+      </div>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 15 -->
+    <section class="form-page-15" id="fpg15" style="display: none">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 5 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="60" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+         <!-- MOVE THIS -->
+         <h1 class="form-title">Please indicate the revenue allocation of your operations:</h1><br><br>
+         <div class="rangeslider">
+         <div class="container">
+           <label class="fpg15-label" id="pr1-label" for="r1"></label><br>
+           <input name="Operation 1 - Revenue %" type="range" class="range-slider" id="r1" value="0" step="5" min="0"
+             max="100" /><span class="fpg15-span" id="s1"></span>%<br/><br>
+ 
+           <label class="fpg15-label" id="pr2-label" for="r2" style="display: none;"></label><br>
+           <input name="Operation 2 - Revenue %" type="range" class="range-slider" id="r2" value="0" step="5"
+             min="0" max="100" /><span class="fpg15-span" id="s2"></span>%<br />
+         </div><br>
+         <h1 id="percentageTotal" class="h1-total">Does everything look good here?</h1>
+       </div><br><br>
+     
+      <button class="back-button" onclick="return show('fpg14','fpg15');">GO BACK</button>
+      <button type="submit" id="form-button" class="form-button" onclick="return show('fpg16','fpg15');">NEXT</button><br>
+      </div>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 16 -->
+        <section class="form-page-16" id="fpg16" style="display: none">
+          <div class="form">
+            <h6 class="form-progress-bar-description">Estimated time: 4 minutes</h6>
+            <progress class="progress-bar" id="form-progress-bar" value="65" max="100"></progress><br><br>
+            <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <h6 class="form-profile-name">Jake Doe</h6>
+            <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+            <button class="help-button">
+              <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                Need help? We can take it from here</a>
+            </button>
+
+            <h1 class="form-title">Where can I find you online?</h1><br>
+            <label class="autofill-label" onclick="displayModalThree();" for="website-address">Autofilled</label><br>
+            <input type="name" class="form-control" name="Website Address" id="website-address"
+            placeholder="Website Address" required><br><br><br>
+
+            <button class="back-button" onclick="checkRangeNumberBack();">GO BACK</button>
+            <button type="submit" id="form-button" class="form-button" onclick="return show('fpg17','fpg16'); displayUpdatedDropdowns();">NEXT</button><br>
+          </div>
+        </section>
+    <!--------------->
+
+    <!-- PAGE 17 -->
+    <section class="form-page-17" id="fpg17" style="display: none">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 3 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="69" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 id="form-title-fpg17" class="form-title"></h1><br>
+
+        <div class="rangeslider">
+          <label class="date-label" for="custom-list">Gross Revenues</label><br>
+          <input name="What are your gross annual revenues?" value="0" type="range" step="100000" min="0" max="3100000" list="custom-list" class="slider" id="sliderRange"><br>
+          <span class="rangevalues" id="range-value">$0</span>
+          <datalist id="custom-list" style="display: none">
+            <option value="0"></option>
+            <option value="50000"></option>
+            <option value="100000"></option>
+            <option value="150000"></option>
+            <option value="200000"></option>
+            <option value="250000"></option>
+            <option value="300000"></option>
+            <option value="350000"></option>
+            <option value="400000"></option>
+            <option value="450000"></option>
+            <option value="500000"></option>
+            <option value="550000"></option>
+            <option value="600000"></option>
+            <option value="650000"></option>
+            <option value="700000"></option>
+            <option value="750000"></option>
+            <option value="800000"></option>
+            <option value="850000"></option>
+            <option value="900000"></option>
+            <option value="950000"></option>
+            <option value="1000000"></option>
+            <option value="1100000"></option>
+            <option value="1200000"></option>
+            <option value="1300000"></option>
+            <option value="1400000"></option>
+            <option value="1500000"></option>
+            <option value="1600000"></option>
+            <option value="1700000"></option>
+            <option value="1800000"></option>
+            <option value="1900000"></option>
+            <option value="2000000"></option>
+            <option value="2100000"></option>
+            <option value="2200000"></option>
+            <option value="2300000"></option>
+            <option value="2400000"></option>
+            <option value="2500000"></option>
+            <option value="2600000"></option>
+            <option value="2700000"></option>
+            <option value="2800000"></option>
+            <option value="2900000"></option>
+            <option value="3000000"></option>
+            <option value="3100000"></option>
+          </datalist>
+        </div><br><br>
+
+        <div class="rangeslider">
+          <label class="date-label" for="custom-list">How much do you sell to the United States?</label><br>
+          <input name="How much do you sell to the United States? (%)" value="0" type="range" step="5" min="0" max="100" list="salessouth-list" class="slider" id="sliderRangeTwo"><br>
+          <span class="rangevalues" id="range-value-two">0%</span>
+          <datalist id="salessouth-list">
+            <option value="0"></option>
+            <option value="5"></option>
+            <option value="10"></option>
+            <option value="15"></option>
+            <option value="20"></option>
+            <option value="25"></option>
+            <option value="30"></option>
+            <option value="35"></option>
+            <option value="40"></option>
+            <option value="45"></option>
+            <option value="50"></option>
+            <option value="55"></option>
+            <option value="60"></option>
+            <option value="65"></option>
+            <option value="70"></option>
+            <option value="75"></option>
+            <option value="80"></option>
+            <option value="85"></option>
+            <option value="90"></option>
+            <option value="95"></option>
+            <option value="100"></option>
+          </datalist>
+        </div><br>
+          </div><br>
+
+        <button class="back-button" onclick="return show('fpg16','fpg17');">GO BACK</button>
+        <button type="submit" id="form-button" class="form-button" onclick="return show('fpg18','fpg17')">NEXT</button><br>
+      </div>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 18 -->
+        <section class="form-page-18" id="fpg18" style="display: none">
+          <div class="form">
+            <h6 class="form-progress-bar-description">Estimated time: 3 minutes</h6>
+            <progress class="progress-bar" id="form-progress-bar" value="74" max="100"></progress><br><br>
+            <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <h6 class="form-profile-name">Jake Doe</h6>
+            <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+            <button class="help-button">
+              <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                Need help? We can take it from here</a>
+            </button>
+
+            <h1 class="form-title">How many employees do you have?</h1><br>
+            <div class="rangeslider">
+              <input name="Number of employees" type="range" step="1" value="0" min="0" max="26" list="employee-list" class="slider" id="employeeSliderRange"><br>
+              <datalist id="employee-list">
+                <option value="0"></option>
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+                <option value="7"></option>
+                <option value="8"></option>
+                <option value="9"></option>
+                <option value="10"></option>
+                <option value="11"></option>
+                <option value="12"></option>
+                <option value="13"></option>
+                <option value="14"></option>
+                <option value="15"></option>
+                <option value="16"></option>
+                <option value="17"></option>
+                <option value="18"></option>
+                <option value="19"></option>
+                <option value="20"></option>
+                <option value="21"></option>
+                <option value="22"></option>
+                <option value="23"></option>
+                <option value="24"></option>
+                <option value="25"></option>
+                <option value="26"></option>
+              </datalist><br>
+              <span class="rangevalues" id="employee-value">No employees</span>
+            </div><br><br><br>
+    
+          <button class="back-button" onclick="return show('fpg17','fpg18');">GO BACK</button>
+          <button type="submit" id="form-button" class="form-button" onclick="businessPropertyInfoRouting();">NEXT</button><br>
+        </div>
+        </section>
+      <!--------------->
+
+<!--------------------------------------- BUSINESS PROPERTY INFO  -------------------------------------------------->
+      <!-- PAGE 19 -->
+         <section class="form-page-19" id="fpg19" style="display: none">
+          <div class="form">
+            <h6 class="form-progress-bar-description">Estimated time: 4 minutes</h6>
+            <progress class="progress-bar" id="form-progress-bar" value="50" max="100"></progress><br><br>
+            <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <h6 class="form-profile-name">Jake Doe</h6>
+            <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+            <button class="help-button">
+              <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                Need help? We can take it from here</a>
+            </button>
+
+            <h1 class="form-title">Can I have some information about your business premise?</h1><br>
+
+            <select class="form-select premise" name="Building Type" placeholder="Type of building" required>
+              <option id="buildingoption" selected="true" disabled="disabled">Type of building</option>
+              <option name="Type of building" value="Hollow Concrete Block">Hollow Concrete Block</option>
+              <option name="Type of building" value="Wood Frame">Wood Frame</option>
+              <option name="Type of building" value="Solid Brick">Brick</option>
+              <option name="Type of building" value="Precast Concrete">Concrete</option>
+              <option name="Type of building" value="Metal Frame">Metal Frame</option>
+              <option name="Type of building" value="Tent">Tent</option>
+            </select>
+    
+           <select class="form-select premise" name="Number of stories" placeholder="Number of stories" required>
+              <option id="storiesoption" selected="true" disabled="disabled">Number of stories</option>
+              <option name="Number of stories" value="1 story">1</option>
+              <option name="Number of stories" value="2 stories">2</option>
+              <option name="Number of stories" value="3 stories">3</option>
+              <option name="Number of stories" value="4 stories">4</option>
+              <option name="Number of stories" value="More than 5 stories">More than 5</option>
+            </select>
+    
+           <select class="form-select premise" name="Basement" placeholder="Basement" required>
+              <option id="basementoption" selected="true" disabled="disabled">Basement</option>
+              <option name="Basement" value="Yes">Yes</option>
+              <option name="Basement" value="No">No</option>
+            </select>
+    
+           <input type="name" class="form-control" name="Square Footage of Total Building" id="sqftbuilding"
+            placeholder="Sq Ft of Total Building">
+
+            <select class="form-select premise" name="Roof Type" placeholder="Roof Type" id="roofType">
+              <option id="roofoption" selected="true" disabled="disabled">Roof type</option>
+              <option name="Roof type" value="Tar and Gravel">Tar and Gravel</option>
+              <option name="Roof type" value="Metal">Metal</option>
+              <option name="Roof type" value="Membrane Only">Membrane Only</option>
+              <option name="Roof type" value="Ashpalt Shingles">Ashpalt Shingles</option>
+              <option name="Roof type" value="Clay">Clay</option>
+              <option name="Roof type" value="Other">Other</option>
+            </select>
+    
+            <select class="form-select premise" name="Sprinklers" placeholder="Sprinklers" required>
+              <option id="sprinklersoption" selected="true" disabled="disabled">Sprinklers</option>
+              <option name="Sprinklers" value="Yes">Yes</option>
+              <option name="Sprinklers" value="No">No</option>
+            </select>
+    
+            <select class="form-select premise" placeholder="Year built" name="Year built" id="yearBuilt" required>
+              <option id="yearbuiltoption" selected="true" disabled="disabled">Year built</option>
+            </select>
+    
+            <select class="form-select premise" name="Alarm" placeholder="Alarm" required>
+              <option id="alarmoption" selected="true" disabled="disabled">Alarm</option>
+              <option name="Alarm" value="Unknown">Unknown</option>
+              <option name="Alarm" value="None">None</option>
+              <option name="Alarm" value="Local">Local</option>
+              <option name="Alarm" value="Monitored">Monitored</option>
+            </select><br>
+            
+            <h6 id="premise-alert-one" value=""></h6>
+
+          <button class="back-button" onclick="return show('fpg7','fpg19');">MY INSURANCE NEEDS</button>
+          <button type="submit" id="form-button" class="form-button" onclick="checkValidation19();">NEXT</button><br>
+          </div>
+        </section>
+      <!--------------->
+
+      <!-- PAGE 20 -->
+          <section class="form-page-20" id="fpg20" style="display: none">
+            <div class="form">
+              <h6 class="form-progress-bar-description">Estimated time: 3 minutes</h6>
+              <progress class="progress-bar" id="form-progress-bar" value="60" max="100"></progress><br><br>
+              <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+              <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+              <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+              <h6 class="form-profile-name">Jake Doe</h6>
+              <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+              <button class="help-button">
+                <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                  Need help? We can take it from here</a>
+              </button>
+
+              <h1 class="form-title">Can I have some more information about your business premise?</h1><br>
+    
+              <select class="form-select premise" name="Heating Type" placeholder="Heating type" id="heatingType">
+                <option id="heatingoption" selected="true" disabled="disabled">Heating type</option>
+                <option name="Heating type" value="Natural Gas">Natural Gas</option>
+                <option name="Heating type" value="Propane">Propane</option>
+                <option name="Heating type" value="Oil">Oil</option>
+                <option name="Heating type" value="Wood">Wood</option>
+                <option name="Heating type" value="Electric">Electric</option>
+                <option name="Heating type" value="Boiler">Boiler</option>
+              </select>
+      
+              <select class="form-select premise" placeholder="Heating Updated" name="Heating Updated" id="updatedYearOne">
+                <option id="heatingupdated" selected="true" disabled="disabled">Heating Updated</option>
+                <option name="No updates" value="No updates">No updates</option>
+              </select>
+      
+              <select class="form-select premise" name="Electrical Panel" placeholder="Electrical Panel" id="electricalPanel">
+                <option id="paneloption" selected="true" disabled="disabled">Electrical panel</option>
+                <option name="Electrical Panel" value="Circuit Breaker">Circuit Breaker</option>
+                <option name="Electrical Panel" value="Fuse">Fuse</option>
+              </select>
+      
+              <select class="form-select premise" placeholder="Electrical Panel Updated" name="Electrical Panel Updated" id="updatedYearTwo">
+                <option id="panelupdated" selected="true" disabled="disabled">Electrical Panel Updated</option>
+                <option name="No updates" value="No updates">No updates</option>
+              </select>
+      
+              <select class="form-select premise" name="Electrical Wiring" placeholder="Electrical Wiring" id="electricalWiring">
+                <option id="wiringoption" selected="true" disabled="disabled">Electrical wiring</option>
+                <option name="Electrical wiring" value="Copper">Copper</option>
+                <option name="Electrical wiring" value="Aluminum">Aluminum</option>
+                <option name="Electrical wiring" value="Galvinized Steel">Galvinized Steel</option>
+                <option name="Electrical wiring" value="Metal Conduit">Metal Conduit</option>
+                <option name="Electrical wiring" value="Knob & Tube">Knob & Tube</option>
+              </select>
+      
+              <select class="form-select premise" placeholder="Electrical Wiring Updated" name="Electrical Wiring Updated" id="updatedYearThree">
+                <option id="wiringupdated" selected="true" disabled="disabled">Electrical Wiring Updated</option>
+                <option name="No updates" value="No updates">No updates</option>
+              </select>
+      
+              <select class="form-select premise" name="Plumbing Type" placeholder="Plumbing type" id="plumbingType">
+                <option id="plumbingoption" selected="true" disabled="disabled">Plumbing type</option>
+                <option name="Plumbing type" value="Copper">Copper</option>
+                <option name="Plumbing type" value="Plastic">Plastic</option>
+                <option name="Plumbing type" value="Galvinized Steel">Galvinized Steel</option>
+                <option name="Plumbing type" value="Copper/Plastic">Copper/Plastic</option>
+              </select>
+      
+              <select class="form-select premise" placeholder="Plumbing Updated" name="Plumbing Updated" id="updatedYearFour">
+                <option id="plumbingupdated" selected="true" disabled="disabled">Plumbing Updated</option>
+                <option name="No updates" value="No updates">No updates</option>
+              </select>
+      
+              <select class="form-select premise" name="Foundation Type" placeholder="Type of foundation" required id="foundationType">
+                <option id="foundationoption" selected="true" disabled="disabled">Type of foundation</option>
+                <option name="Type of foundation" value="Poured Concrete">Poured Concrete</option>
+                <option name="Type of foundation" value="Stone wall">Stone wall</option>
+                <option name="Type of foundation" value="Steel">Steel</option>
+                <option name="Type of foundation" value="Hollow Concrete Block">Hollow Concrete Block</option>
+                <option name="Type of foundation" value="Wood">Wood</option>
+              </select>
+      
+              <select class="form-select" placeholder="Foundation Updated" name="Foundation Updated" id="updatedYearFive">
+                <option id="foundationupdated" selected="true" disabled="disabled">Foundation Updated</option>
+                <option name="No updates" value="No updates">No updates</option>
+              </select><br><br>
+
+              <h6 id="premise-alert-two" value=""></h6>
+
+            <button class="back-button" onclick="return show('fpg7','fpg20');">MY INSURANCE NEEDS</button>
+            <button type="submit" id="form-button" class="form-button" onclick="checkValidation20();">NEXT</button><br>
+            </div>
+          </section>
+      <!--------------->
+
+    <!-- PAGE 21 -->
+    <section class="form-page-21" id="fpg21" style="display: none">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 3 minutes</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="65" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 class="form-title">Do you need your building covered?</h1><br><br><br>
+        <div class="radio-wrapper">
+          <div type="radio" class="radio-card yesno" id="radio-card-13">
+            <img class="radio-yesno-img" src="images/confirm.svg" alt="Confirm Checkmark"><br><br>
+            <input type="radio" name="Do you need your building covered?" id="radio-13" value="Yes">
+          </div>
+          <div type="radio" class="radio-card yesno" id="radio-card-14">
+            <img class="radio-yesno-img" src="images/cancel.svg" alt="Decline Checkmark"><br><br>
+            <input type="radio" name="Do you need your building covered?" id="radio-14" value="No">
+          </div>
+        </div>
+        <h6 id="radio-alert-five" value=""></h6>
+
+        <button class="back-button" onclick="return show('fpg7','fpg21');">MY INSURANCE NEEDS</button>
+        <button type="submit" class="form-button" id="submit-form" onclick="checkValidation21();">NEXT</button><br>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 22 -->
+      <section class="form-page-22" id="fpg22" style="display: none">
+        <div class="form">
+          <h6 class="form-progress-bar-description">Estimated time: 3 minutes</h6>
+          <progress class="progress-bar" id="form-progress-bar" value="70" max="100"></progress><br><br>
+          <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+          <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+          <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+
+          <h6 class="form-profile-name">Jake Doe</h6>
+          <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+          <button class="help-button">
+            <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+              Need help? We can take it from here</a>
+          </button>
+
+          <h1 class="form-title">How much contents do you have at your business location?</h1><br><br>
+            <div class="rangeslider">
+              <label class="date-label" for="business-location-range">Stock and Equipment</label><br>
+              <input name="How much contents do you have at your business location?" value="0" type="range" step="50000" min="0" max="1050000" list="custom-list" class="slider" id="businessLocationRange"><br>
+              <datalist id="business-location-range">
+                <option value="0"></option>
+                <option value="50000"></option>
+                <option value="100000"></option>
+                <option value="150000"></option>
+                <option value="200000"></option>
+                <option value="250000"></option>
+                <option value="300000"></option>
+                <option value="350000"></option>
+                <option value="400000"></option>
+                <option value="450000"></option>
+                <option value="500000"></option>
+                <option value="550000"></option>
+                <option value="600000"></option>
+                <option value="650000"></option>
+                <option value="700000"></option>
+                <option value="750000"></option>
+                <option value="800000"></option>
+                <option value="850000"></option>
+                <option value="900000"></option>
+                <option value="950000"></option>
+                <option value="1000000"></option>
+                <option value="1050000"></option>
+              </datalist>
+              <span class="rangevalues" id="businesslocation-value">$500,000</span>
+            </div><br>
+          
+            <button class="back-button" onclick="return show('fpg7','fpg22');">MY INSURANCE NEEDS</button>
+          <button type="submit" class="form-button" id="submit-form" onclick="businessPropertyInfoRoutingThree();">NEXT</button><br>
+      </section>
+
+      <!-- PAGE 23 -->
+          <section class="form-page-23" id="fpg23" style="display: none">
+            <div class="form">
+              <h6 class="form-progress-bar-description">Estimated time: 2 minutes</h6>
+              <progress class="progress-bar" id="form-progress-bar" value="75" max="100"></progress><br><br>
+              <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+              <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+              <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+
+              <h6 class="form-profile-name">Jake Doe</h6>
+              <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+              <button class="help-button">
+                <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                  Need help? We can take it from here</a>
+              </button>
+             
+              <h1 class="form-title">Do you have any business items you take away with you?</h1><br><br>
+              <div class="rangeslider">
+                <label class="date-label" for="equipment-tools-range">Tools and Equipment</label><img class="csimg-info" id="csImageModalOne" src="images/information.png" alt="information on credit score" onclick="displayModalOne();"><br>
+                <input name="Do you have any business items you take away with you?" value="0" type="range" step="5000" min="0" max="105000" list="custom-list" class="slider" id="businessToolsRange"><br>
+                <datalist id="equipment-tools-range">
+                  <option value="0"></option>
+                  <option value="5000"></option>
+                  <option value="10000"></option>
+                  <option value="15000"></option>
+                  <option value="20000"></option>
+                  <option value="25000"></option>
+                  <option value="30000"></option>
+                  <option value="35000"></option>
+                  <option value="40000"></option>
+                  <option value="45000"></option>
+                  <option value="50000"></option>
+                  <option value="55000"></option>
+                  <option value="60000"></option>
+                  <option value="65000"></option>
+                  <option value="70000"></option>
+                  <option value="75000"></option>
+                  <option value="80000"></option>
+                  <option value="85000"></option>
+                  <option value="90000"></option>
+                  <option value="95000"></option>
+                  <option value="100000"></option>
+                  <option value="105000"></option>
+                </datalist>
+                <span class="rangevalues" id="businesstools-value">$50,000</span>
+              </div><br>
+
+          <button class="back-button" onclick="return show('fpg7','fpg23');">MY INSURANCE NEEDS</button>
+          <button type="submit" class="form-button" id="submit-form" onclick="businessPropertyInfoRoutingFour();">NEXT</button><br>
+          </section>
+     <!--------------->
+
+<!--------------------------------------- MY AUTO -------------------------------------------------->
+
+    <!-- PAGE 24 -->
+      <section class="form-page-24" id="fpg24" style="display: none">
+       <div class="form">
+       <h6 class="form-progress-bar-description">Estimated time: 3 minutes</h6>
+          <progress class="progress-bar" id="form-progress-bar" value="65" max="100">65</progress><br><br>
+            <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+
+            <h6 class="form-profile-name">Jake Doe</h6>
+            <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+            <button class="help-button">
+              <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                Need help? We can take it from here</a>
+            </button>
+
+            <h1 class="form-title">How many drivers do you have and how many vehicles do you own?</h1>
+
+            <div class="rangeslider">
+              <span class="rangevalues" id="drivers-value">1 driver</span><br>
+              <input name="How many drivers do you have?" value="0" type="range" step="1" min="1" max="6" list="custom-list" class="slider" id="numberofDriversRange"><br>
+              <datalist id="driver-number-range">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="More than 5"></option>
+              </datalist>
+              <img id="driverImgOne" class="driver-img" src="images/man.svg" alt="">
+              <img id="driverImgTwo" style="display: none;" class="driver-img" src="images/woman.svg" alt="">
+              <img id="driverImgThree" style="display: none;" class="driver-img" src="images/man.svg" alt="">
+              <img id="driverImgFour" style="display: none;" class="driver-img" src="images/woman.svg" alt="">
+              <img id="driverImgFive" style="display: none;" class="driver-img" src="images/man.svg" alt="">
+              <img id="driverImgSix" style="display: none;" class="driver-img plus" src="images/plus.svg" alt=""><br><br>
+
+            <div class="rangeslider">
+              <span class="rangevalues" id="vehicles-value">1 vehicle</span><br>
+              <input name="How many vehicles do you own?" value="0" type="range" step="1" min="1" max="6" list="custom-list" class="slider" id="numberofVehiclesRange"><br>
+              <datalist id="vehicle-number-range">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+              </datalist> 
+              <img id="vehicleImgOne" class="automobile-img" src="images/logistic-truck.svg" alt="">
+              <img id="vehicleImgTwo" style="display: none;" class="automobile-img" src="images/logistic-truck.svg" alt="">
+              <img id="vehicleImgThree" style="display: none;" class="automobile-img" src="images/logistic-truck.svg" alt="">
+              <img id="vehicleImgFour" style="display: none;" class="automobile-img" src="images/logistic-truck.svg" alt="">
+              <img id="vehicleImgFive" style="display: none;" class="automobile-img" src="images/logistic-truck.svg" alt="">
+              <img id="vehicleImgSix" style="display: none;" class="automobile-img plus" src="images/plus.svg" alt=""><br><br>
+            </div><br>
+            <button class="back-button" onclick="return show('fpg7','fpg24');">MY INSURANCE NEEDS</button>
+          <button type="submit" class="form-button" id="submit-form" onclick="return show('fpg25','fpg24')">NEXT</button><br>
+        </section>
+      <!--------------->
+
+       <!------------------------ DYNAMIC AUTO PAGE --------------------------->
+       
+       <!-- PAGE 25 -->
+       <section class="form-page-25" id="fpg25" style="display: none">
+        <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 3 minutes</h6>
+           <progress class="progress-bar" id="form-progress-bar" value="70" max="100"></progress><br><br>
+             <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+             <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+             <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+ 
+             <h6 class="form-profile-name">Jake Doe</h6>
+             <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+             <button class="help-button">
+              <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                Need help? We can take it from here</a>
+            </button>
+
+             <!---- DRIVER ONE INFO ---->
+             <div class="form-driver-info" id="driverinfoOne">
+              <h1 class="form-title">Driver #1 - Information</h1><br>
+              <input name="Driver #1 | Name" id="driverOne-name" class="form-control" placeholder="Please enter drivers name" autocomplete="off"><br>
+              <input name="Driver #1 | License" id="driverOne-license" maxlength="17" class="form-control" onkeyup="formatLicenseNumber(this)" onfocusout="fetchDriverOneLicense();" placeholder="License Number (D0728-42108-11006)" autocomplete="off"><br>
+              <label class="autofill-label" onclick="displayModalThree();" for="driverOne-date">Autofilled</label><br>
+              <input name="Driver #1 | DOB" id="driverOne-date" type="date" class="form-control" autocomplete="off" >
+              <select class="form-select" id="driverOne-gender" name="Driver #1 | Gender" placeholder="Please select gender"><br>
+                <option id="defaultauto-option" selected="true" disabled="disabled">Gender</option>
+                <option name="Driver #1 | Gender" value="Male">Male</option>
+                <option name="Driver #1 | Gender" value="Female">Female</option>
+              </select><br>
+             </div>
+             <!-------->
+
+              <!-- DRIVER TWO INFO -->
+              <div class="form-driver-info" id="driverinfoTwo">
+                <h1 class="form-title">Driver #2 - Information</h1><br>
+                <input name="Driver #2 | Name" id="driverTwo-name" class="form-control" placeholder="Please enter drivers name" autocomplete="off"><br>
+                <input name="Driver #2 | License" id="driverTwo-license" maxlength="17" class="form-control" onkeyup="formatLicenseNumber(this)" onfocusout="fetchDriverTwoLicense();" placeholder="License Number (D0728-42108-11006)" autocomplete="off"><br>
+                <label class="autofill-label" onclick="displayModalThree();" for="driverTwo-date">Autofilled</label><br>
+                <input name="Driver #2 | DOB" id="driverTwo-date" type="date" class="form-control" autocomplete="off" >
+                <select class="form-select" id="driverTwo-gender" name="Driver #2 | Gender" placeholder="Please select gender" ><br>
+                  <option id="defaultauto-option" selected="true" disabled="disabled">Gender</option>
+                  <option name="Driver #2 | Gender" value="Male">Male</option>
+                  <option name="Driver #2 | Gender" value="Female">Female</option>
+                </select><br>
+               </div>
+               <!-------->
+
+              <!-- DRIVER THREE INFO -->
+              <div class="form-driver-info" id="driverinfoThree">
+                <h1 class="form-title">Driver #3 - Information</h1><br>
+                <input name="Driver #3 | Name" id="driverThree-name" class="form-control" placeholder="Please enter drivers name" autocomplete="off"><br>
+                <input name="Driver #3 | License" id="driverThree-license" maxlength="17" class="form-control" onkeyup="formatLicenseNumber(this)" onfocusout="fetchDriverThreeLicense();" placeholder="License Number (D0728-42108-11006)" autocomplete="off"><br>
+                <label class="autofill-label" onclick="displayModalThree();" for="driverThree-date">Autofilled</label><br>
+                <input name="Driver #3 | DOB" id="driverThree-date" type="date" class="form-control" autocomplete="off" >
+                <select class="form-select" id="driverThree-gender" name="Driver #3 | Gender" placeholder="Please select gender" ><br>
+                  <option id="defaultauto-option" selected="true" disabled="disabled">Gender</option>
+                  <option name="Driver #3 | Gender" value="Male">Male</option>
+                  <option name="Driver #3 | Gender" value="Female">Female</option>
+                </select><br>
+               </div>
+               <!-------->
+
+              <!-- DRIVER FOUR INFO -->
+              <div class="form-driver-info" id="driverinfoFour">
+                <h1 class="form-title">Driver #4 - Information</h1><br>
+                <input name="Driver #4 | Name" id="driverFour-name" class="form-control" placeholder="Please enter drivers name" autocomplete="off"><br>
+                <input name="Driver #4 | License" id="driverFour-license" maxlength="17" class="form-control" onkeyup="formatLicenseNumber(this)" onfocusout="fetchDriverFourLicense();" placeholder="License Number (D0728-42108-11006)" autocomplete="off"><br>
+                <label class="autofill-label" onclick="displayModalThree();" for="driverFour-date">Autofilled</label><br>
+                <input name="Driver #4 | DOB" id="driverFour-date" type="date" class="form-control" autocomplete="off" >
+                <select class="form-select" id="driverFour-gender" name="Driver #4 | Gender" placeholder="Please select gender" ><br>
+                  <option id="defaultauto-option" selected="true" disabled="disabled">Gender</option>
+                  <option name="Driver #4 | Gender" value="Male">Male</option>
+                  <option name="Driver #4 | Gender" value="Female">Female</option>
+                </select><br>
+               </div><br>
+               <!-------->
+
+             <span id="driverDotOne" class="driverDot" onclick="currentDriverSlide(1)"></span>
+             <span id="driverDotTwo" class="driverDot" onclick="currentDriverSlide(2)"></span>
+             <span id="driverDotThree" class="driverDot" onclick="currentDriverSlide(3)"></span>
+             <span id="driverDotFour" class="driverDot" onclick="currentDriverSlide(4)"></span><br><br>
+
+             <button class="back-button" onclick="return show('fpg7','fpg25');">MY INSURANCE NEEDS</button>
+           <button type="submit" class="form-button" id="submit-form" onclick="populatePrimaryDrivers(); return show('fpg26','fpg25');">NEXT</button><br>
+         </section>
+       <!--------------->
+
+       <section class="form-page-26" id="fpg26" style="display: none">
+        <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 2 minutes</h6>
+           <progress class="progress-bar" id="form-progress-bar" value="75" max="100"></progress><br><br>
+             <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+             <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+             <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+ 
+             <h6 class="form-profile-name">Jake Doe</h6>
+             <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+             <button class="help-button">
+              <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                Need help? We can take it from here</a>
+            </button>
+
+          <!-- VEHICLE INFO ONE -->
+          <div class="form-vehicle-info" id="vehicleInfoOne">
+              <h1 class="form-title">Vehicle #1 - Information</h1>
+              <input name="Vehicle #1 | VIN" id="driverOne-vin" onfocusout="useVinVehicleOneApi();" class="form-control" placeholder="Please enter VIN number" maxlength="17" autocomplete="off"><br>
+
+              <!-- AUTOFILL -->
+              <label class="autofill-label" onclick="displayModalThree();" for="driverOne-year">Autofilled</label><br>
+              <input name="Vehicle #1 | Year" id="driverOne-year" class="form-control" placeholder="Year" maxlength="4" autocomplete="off" disabled>
+              <input name="Vehicle #1 | Make" id="driverOne-make" class="form-control" placeholder="Make" autocomplete="off" disabled>
+              <input name="Vehicle #1 | Model" id="driverOne-model" class="form-control" placeholder="Model" autocomplete="off" disabled><br>
+                         
+              <input type="radio" id="driverOne-radioOne" name="Vehicle #1 | Purchase Type" value="Owned">
+              <label class="company-radio" for="driverOne-radioOne">Owned</label>
+              <input type="radio" id="driverOne-radioTwo" name="Vehicle #1 | Purchase Type" value="Leased">
+              <label class="company-radio" for="driverOne-radioTwo">Leased</label>
+              <input type="radio"  id="driverOne-radioThree" name="Vehicle #1 | Purchase Type" value="Financed">
+              <label class="company-radio" for="driverOne-radioThree">Financed</label><br><br>
+              
+              <label class="date-label">Are you the original owner of this vehicle?</label>
+              <input type="radio" id="driverOne-originalOwnerYes" name="Vehicle #1 | Original Owner" value="Yes">
+              <label class="company-radio" for="driverOne-originalOwnerYes">Yes</label>
+              <input type="radio" id="driverOne-originalOwnerNo" name="Vehicle #1 | Original Owner" value="No">
+              <label class="company-radio" for="driverOne-originalOwnerNo">No</label><br>
+
+              <input name="Vehicle #1 | Annual Mileage" id="driverOne-mileage" class="form-control" placeholder="Km per year" 
+              autocomplete="off">
+              
+              <input name="Vehicle #1 | Registered Owner" id="driverOne-owner" class="form-control" placeholder="Registered owner" 
+              autocomplete="off">
+
+              <select class="form-select" id="primaryDriverList1" name="Vehicle #1 | Primary Driver" placeholder="Please select primary driver for this vehicle">
+                <option id="defaultdriver-option" selected="true" disabled="disabled">Primary driver</option>
+              </select><br>
+
+            </div>
+            <!-- -->
+
+             <!-- VEHICLE INFO TWO -->
+          <div class="form-vehicle-info" id="vehicleInfoTwo">
+            <h1 class="form-title">Vehicle #2 - Information</h1>
+            <input name="Vehicle #2 | VIN" id="driverTwo-vin" onfocusout="useVinVehicleTwoApi();" class="form-control" placeholder="Please enter VIN number" maxlength="17" autocomplete="off"><br>
+            <!-- AUTOFILL -->
+            <label class="autofill-label" onclick="displayModalThree();"  for="driverTwo-year">Autofilled</label><br>
+            <input name="Vehicle #2 | Year" id="driverTwo-year" class="form-control" placeholder="Year" maxlength="4" autocomplete="off" disabled>
+            <input name="Vehicle #2 | Make" id="driverTwo-make" class="form-control" placeholder="Make" autocomplete="off" disabled>
+            <input name="Vehicle #2 | Model" id="driverTwo-model" class="form-control" placeholder="Model" autocomplete="off" disabled><br>
+           
+            <input type="radio" id="driverTwo-radioOne" name="Vehicle #2 | Purchase Type" value="Owned">
+            <label class="company-radio" for="driverTwo-radioOne">Owned</label>
+            <input type="radio" id="driverTwo-radioTwo" name="Vehicle #2 | Purchase Type" value="Leased">
+            <label class="company-radio" for="driverTwo-radioTwo">Leased</label>
+            <input type="radio" id="driverTwo-radioThree" name="Vehicle #2 | Purchase Type" value="Financed">
+            <label class="company-radio" for="driverTwo-radioThree">Financed</label><br><br>
+            
+            <label class="date-label">Are you the original owner of this vehicle?</label>
+            <input type="radio" id="driverTwo-originalOwnerYes" name="Vehicle #2 | Original Owner" value="Yes">
+            <label class="company-radio" for="driverTwo-originalOwnerYes">Yes</label>
+            <input type="radio" id="driverTwo-originalOwnerNo" name="Vehicle #2 | Original Owner" value="No">
+            <label class="company-radio" for="driverTwo-originalOwnerNo">No</label><br>
+
+            <input name="Vehicle #2 | Annual Mileage" id="driverTwo-mileage" class="form-control" placeholder="Km per year" 
+            autocomplete="off">
+            
+            <input name="Vehicle #2 | Registered Owner" id="driverTwo-owner" class="form-control" placeholder="Registered owner" 
+            autocomplete="off">
+
+            <select class="form-select" id="primaryDriverList2" name="Vehicle #2 | Primary Driver" placeholder="Please select primary driver for this vehicle">
+              <option id="defaultdriver-option" selected="true" disabled="disabled">Primary driver</option>
+            </select><br>
+          </div>
+          <!-- -->
+
+           <!-- VEHICLE INFO ONE -->
+           <div class="form-vehicle-info" id="vehicleInfoThree">
+            <h1 class="form-title">Vehicle #3 - Information</h1>
+            <input name="Vehicle #3 | VIN" id="driverThree-vin" onfocusout="useVinVehicleThreeApi();" class="form-control" placeholder="Please enter VIN number" maxlength="17" autocomplete="off"><br>
+            <!-- AUTOFILL -->
+            <label class="autofill-label" onclick="displayModalThree();" for="driverThree-year">Autofilled</label><br>
+            <input name="Vehicle #3 | Year" id="driverThree-year" class="form-control" placeholder="Year" maxlength="4" autocomplete="off" disabled>
+            <input name="Vehicle #3 | Make" id="driverThree-make" class="form-control" placeholder="Make" autocomplete="off" disabled>
+            <input name="Vehicle #3 | Model" id="driverThree-model" class="form-control" placeholder="Model" autocomplete="off" disabled><br>
+           
+            <input type="radio" id="driverThree-radioOne" name="Vehicle #3 | Purchase Type" value="Owned">
+            <label class="company-radio" for="driverThree-radioOne">Owned</label>
+            <input type="radio" id="driverThree-radioTwo" name="Vehicle #3 | Purchase Type" value="Leased">
+            <label class="company-radio" for="driverThree-radioTwo">Leased</label>
+            <input type="radio"  id="driverThree-radioThree" name="Vehicle #3 | Purchase Type" value="Financed">
+            <label class="company-radio" for="driverThree-radioThree">Financed</label><br><br>
+            
+            <label class="date-label">Are you the original owner of this vehicle?</label>
+            <input type="radio" id="driverThree-originalOwnerYes" name="Vehicle #3 | Original Owner" value="Yes">
+            <label class="company-radio" for="driverThree-originalOwnerYes">Yes</label>
+            <input type="radio" id="driverThree-originalOwnerNo" name="Vehicle #3 | Original Owner" value="No">
+            <label class="company-radio" for="driverThree-originalOwnerNo">No</label><br>
+
+            <input name="Vehicle #3 | Annual Mileage" id="driverThree-mileage" class="form-control" placeholder="Km per year" 
+            autocomplete="off">
+            
+            <input name="Vehicle #3 | Registered Owner" id="driverThree-owner" class="form-control" placeholder="Registered owner" 
+            autocomplete="off">
+
+            <select class="form-select" id="primaryDriverList3" name="Vehicle #3 | Primary Driver" placeholder="Please select primary driver for this vehicle">
+              <option id="defaultdriver-option" selected="true" disabled="disabled">Primary driver</option>
+            </select><br>
+          </div>
+          <!-- -->
+
+           <!-- VEHICLE INFO ONE -->
+           <div class="form-vehicle-info" id="vehicleInfoFour">
+            <h1 class="form-title">Vehicle #4 - Information</h1>
+            <input name="Vehicle #4 | VIN" id="driverFour-vin" onfocusout="useVinVehicleFourApi();" class="form-control" placeholder="Please enter VIN number" maxlength="17" autocomplete="off"><br>
+            <!-- AUTOFILL -->
+            <label class="autofill-label" onclick="displayModalThree();"  for="driverFour-year">Autofilled</label><br>
+            <input name="Vehicle #4 | Year" id="driverFour-year" class="form-control" placeholder="Year" maxlength="4" autocomplete="off" disabled>
+            <input name="Vehicle #4 | Make" id="driverFour-make" class="form-control" placeholder="Make" autocomplete="off" disabled>
+            <input name="Vehicle #4 | Model" id="driverFour-model" class="form-control" placeholder="Model" autocomplete="off" disabled><br>
+           
+            <input type="radio" id="driverFour-radioOne" name="Vehicle #4 | Purchase Type" value="Owned">
+            <label class="company-radio" for="driverFour-radioOne">Owned</label>
+            <input type="radio" id="driverFour-radioTwo" name="Vehicle #4 | Purchase Type" value="Leased">
+            <label class="company-radio" for="driverFour-radioTwo">Leased</label>
+            <input type="radio"  id="driverFour-radioThree" name="Vehicle #4 | Purchase Type" value="Financed">
+            <label class="company-radio" for="driverFour-radioThree">Financed</label><br><br>
+            
+            <label class="date-label">Are you the original owner of this vehicle?</label>
+            <input type="radio" id="driverFour-originalOwnerYes" name="Vehicle #4 | Original Owner" value="Yes">
+            <label class="company-radio" for="driverFour-originalOwnerYes">Yes</label>
+            <input type="radio" id="driverFour-originalOwnerNo" name="Vehicle #4 | Original Owner" value="No">
+            <label class="company-radio" for="driverFour-originalOwnerNo">No</label><br>
+
+            <input name="Vehicle #4 | Annual Mileage" id="driverFour-mileage" class="form-control" placeholder="Km per year" 
+            autocomplete="off">
+            
+            <input name="Vehicle #4 | Registered Owner" id="driverFour-owner" class="form-control" placeholder="Registered owner" 
+            autocomplete="off">
+
+            <select class="form-select" id="primaryDriverList4" name="Vehicle #4 | Primary Driver" placeholder="Please select primary driver for this vehicle">
+              <option id="defaultdriver-option" selected="true" disabled="disabled">Primary driver</option>
+            </select><br>
+          </div>
+          <!-- -->
+
+             <span id="vehicleDotOne" class="vehicleDot" onclick="currentVehicleSlide(1)"></span>
+             <span id="vehicleDotTwo" class="vehicleDot" onclick="currentVehicleSlide(2)"></span>
+             <span id="vehicleDotThree" class="vehicleDot" onclick="currentVehicleSlide(3)"></span>
+             <span id="vehicleDotFour" class="vehicleDot" onclick="currentVehicleSlide(4)"></span>
+             <br><br>
+           
+             <button class="back-button" onclick="return show('fpg7','fpg26');">MY INSURANCE NEEDS</button>
+           <button type="submit" class="form-button" id="submit-form" onclick="myAutoAnimation(); insuranceHistoryRouting();">NEXT</button><br>
+         </section>
+       <!--------------->
+
+<!--------------------------------------- MY INSURANCE HISTORY -------------------------------------------------->
+    <!-- PAGE 27 -->
+    <section class="form-page-27" id="fpg27" style="display: none">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 1 minute</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="85" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 id="form-title-fpg27" class="form-title"></h1><br>
+
+        <div class="radio-wrapper">
+          <div type="radio" class="radio-card yesno" id="radio-card-15">
+            <h1 class="form-title-question" id="formQuestionOne">NO</h1>
+            <input type="radio" name="Has your business had any insurance cancellations in the past?" id="radio-15" value="No">
+          </div>
+          <div type="radio" class="radio-card yesno" id="radio-card-16">
+            <h1 class="form-title-question" id="formQuestionTwo">YES</h1>
+            <input type="radio" name="Has your business had any insurance cancellations in the past?" id="radio-16" value="Yes">
+          </div>
+        </div><br>
+
+        <div id="insuranceCancellationsBox" style="display: none;">
+          <input name="What happened to the insurance cancellation?" class="form-control" placeholder="What happened?" 
+          autocomplete="off">
+        </div>
+
+        <h6 id="radio-alert-seven" value=""></h6>
+        <button class="back-button" onclick="return show('fpg7','fpg27');">MY INSURANCE NEEDS</button>
+        <button type="submit" class="form-button" id="submit-form" onclick="checkValidation27()">NEXT</button><br>
+    </section>
+    <!--------------->
+
+    <!-- PAGE 28 -->
+    <section class="form-page-28" id="fpg28" style="display: none">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: 1 minute</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="90" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 id="form-title-fpg28" class="form-title"></h1><br>
+
+        <div class="radio-wrapper">
+          <div type="radio" class="radio-card yesno" id="radio-card-17">
+            <h1 class="form-title-question" id="formQuestionThree">NO</h1>
+            <input type="radio" name="Has your business had any claims in the past 5 years?" id="radio-17" value="No">
+          </div>
+          <div type="radio" class="radio-card yesno" id="radio-card-18">
+            <h1 class="form-title-question" id="formQuestionFour">YES</h1>
+            <input type="radio" name="Has your business had any claims in the past 5 years?" id="radio-18" value="Yes">
+          </div>
+        </div><br><br>
+
+        <div class="rangeslider" id="businessClaimsSlider" style="display: none;">
+          <label class="date-label" for="businessclaim-number-range">How many claims have you had?: <b id="claims-value">1 claim</b></label><br>
+          <input name="How many claims have you had?" value="0" type="range" step="1" min="0" max="11" list="custom-list" class="slider" id="numberofClaimsRange"><br>
+          <datalist id="businessclaim-number-range">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+            <option value="11"></option>
+          </datalist> 
+        </div><br>
+        <h6 id="radio-alert-eight" value=""></h6><br>
+
+        <button class="back-button" onclick="return show('fpg7','fpg28');">MY INSURANCE NEEDS</button>
+        <button type="submit" class="form-button" id="submit-form" onclick="checkValidation28();">NEXT</button><br>
+    </section>
+
+        <!-- PAGE 29 -->
+        <section class="form-page-29" id="fpg29" style="display: none">
+          <div class="form">
+            <h6 class="form-progress-bar-description">Estimated time: 2 minutes</h6>
+            <progress class="progress-bar" id="form-progress-bar" value="85" max="100"></progress><br><br>
+            <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+    
+            <h6 class="form-profile-name">Jake Doe</h6>
+            <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+            <button class="help-button">
+              <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                Need help? We can take it from here</a>
+            </button>
+    
+            <div class="form-claim-info" id="claimInfoOne">
+              <h1 class="form-title" id="claimTitleOne">Claim #1 - Information</h1>
+
+              <select class="form-select" name="Claim #1 | Type of claim?">
+                <option id="defaultauto-option" selected="true" disabled="disabled">What was the type of claim?</option>
+                <option name="Claim #1 | Type of claim?" value="Auto">Auto</option>
+                <option name="Claim #1 | Type of claim?" value="Commercial General Liability">Commercial General Liability</option>
+                <option name="Claim #1 | Type of claim?" value="Commercial Property">Commercial Property</option>
+              </select><br>
+
+              <label class="date-label" for="date-of-loss">Date of the Accident</label><br>
+              <input name="Claim #1 | Date of the Accident" type="date" class="form-control" placeholder="Date of the Accident"
+              required autocomplete="off" id="accident-date"><br>
+
+              <input name="Claim #1 | What happened?" class="form-control" placeholder="What happened?" 
+              autocomplete="off"><br>
+           
+              <select class="form-select" name="Claim #1 | Is the claim opened or closed?" id="claimOne-status">
+                <option id="defaultauto-option" selected="true" disabled="disabled">Claim status</option>
+                <option name="Claim #1 | Is the claim opened or closed?" value="Open">Open</option>
+                <option name="Claim #1 | Is the claim opened or closed?" value="Closed">Closed</option>
+              </select>
+
+              <input name="Claim #1 | Amount paid on the claim" class="form-control" placeholder="($) Amount paid on the claim" 
+              autocomplete="off" id="claimOne-cost">
+          </div>
+
+          
+          <div class="form-claim-info" id="claimInfoTwo">
+            <h1 class="form-title" id="claimTitleOne">Claim #2 - Information</h1>
+
+            <select class="form-select" name="Claim #2 | Type of claim?">
+              <option id="defaultauto-option" selected="true" disabled="disabled">What was the type of claim?</option>
+              <option name="Claim #2 | Type of claim?" value="Auto">Auto</option>
+              <option name="Claim #2 | Type of claim?" value="Commercial General Liability">Commercial General Liability</option>
+              <option name="Claim #2 | Type of claim?" value="Commercial Property">Commercial Property</option>
+            </select><br>
+
+            <label class="date-label" for="date-of-loss">Date of the Accident</label><br>
+            <input name="Claim #2 | Date of the Accident" type="date" class="form-control" placeholder="Date of the Accident"
+            required autocomplete="off" id="accident-date"><br>
+
+            <input name="Claim #2 | What happened?" class="form-control" placeholder="What happened?" 
+            autocomplete="off"><br>
+         
+            <select class="form-select" name="Claim #2 | Is the claim opened or closed?" id="claimTwo-status" style="width: 150px; margin: 5px 10px;">
+              <option id="defaultauto-option" selected="true" disabled="disabled">Claim status</option>
+              <option name="Claim #2 | Is the claim opened or closed?" value="Open">Open</option>
+              <option name="Claim #2 | Is the claim opened or closed?" value="Closed">Closed</option>
+            </select>
+
+            <input name="Claim #2 | Amount paid on the claim" class="form-control" placeholder="($) Amount paid on the claim" 
+            autocomplete="off" id="claimTwo-cost">
+        </div>
+
+        
+        <div class="form-claim-info" id="claimInfoOne">
+          <h1 class="form-title" id="claimTitleOne">Claim #3 - Information</h1>
+
+          <select class="form-select" name="Claim #3 | Type of claim?">
+            <option id="defaultauto-option" selected="true" disabled="disabled">What was the type of claim?</option>
+            <option name="Claim #3 | Type of claim?" value="Auto">Auto</option>
+            <option name="Claim #3 | Type of claim?" value="Commercial General Liability">Commercial General Liability</option>
+            <option name="Claim #3 | Type of claim?" value="Commercial Property">Commercial Property</option>
+          </select><br>
+
+          <label class="date-label" for="date-of-loss">Date of the Accident</label><br>
+          <input name="Claim #3 | Date of the Accident" type="date" class="form-control" placeholder="Date of the Accident"
+          required autocomplete="off" id="accident-date"><br>
+
+          <input name="Claim #3 | What happened?" class="form-control" placeholder="What happened?" 
+          autocomplete="off"><br>
+       
+          <select class="form-select" name="Claim #3 | Is the claim opened or closed?" id="claimThree-status">
+            <option id="defaultauto-option" selected="true" disabled="disabled">Claim status</option>
+            <option name="Claim #3 | Is the claim opened or closed?" value="Open">Open</option>
+            <option name="Claim #3 | Is the claim opened or closed?" value="Closed">Closed</option>
+          </select>
+
+          <input name="Claim #3 | Amount paid on the claim" class="form-control" placeholder="($) Amount paid on the claim" 
+          autocomplete="off" id="claimThree-cost">
+      </div><br>
+
+          <span id="claimsDotOne" class="claimsDot" onclick="currentClaimsSlide(1)"></span>
+          <span id="claimsDotTwo" class="claimsDot" onclick="currentClaimsSlide(2)"></span>
+          <span id="claimsDotThree" class="claimsDot" onclick="currentClaimsSlide(3)"></span><br><br>
+          
+            <button class="back-button" onclick="return show('fpg7','fpg29');">MY INSURANCE NEEDS</button>
+            <button type="submit" class="form-button" id="submit-form" onclick="creditCheckAnimation(); return show('fpg30','fpg29');">NEXT</button><br>
+        </section>
+    <!--------------->
+
+<!--------------------------------------- CREDIT SCORE CHECK AND SUBMIT -------------------------------------------------->
+    <!-- PAGE 30 -->
+    <section class="form-page-30" id="fpg30" style="display: none">
+      <div class="form">
+        <h6 class="form-progress-bar-description">Estimated time: Less than a minute</h6>
+        <progress class="progress-bar" id="form-progress-bar" value="95" max="100"></progress><br><br>
+        <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+        <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+
+        <h6 class="form-profile-name">Jake Doe</h6>
+        <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+        <button class="help-button">
+          <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+            Need help? We can take it from here</a>
+        </button>
+
+        <h1 class="form-title">Want us to help you save money on your insurance?</h1><br>
+            <input type="radio" id="creditRadioYes" name="Save money on your insurance?" value="Yes">
+            <label class="creditscore-radio" id="csradio1"  for="creditRadioYes">Yes, please pull a soft credit check on me</label>
+            <img class="csimg-info" id="csImageModalTwo" src="images/information.png" alt="information on credit score" onclick="displayModalTwo();"><br>
+
+          <div id="cs-modal-two" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <img class="modal-logo" src="images/Boardwalk-Dark.svg" alt="Boardwalk Insurance Logo">
+                <h3 style="text-align: center; font-weight: 600;">Soft Credit Check</h3>
+                <p>This is not a hard check and will not impact your credit score, nor will it give us a credit score but a soft
+                rating that will provide us the potential to apply discounts.
+                </p>
+              </div>
+            </div>
+            <br>
+              <div>
+                <label style="display: none;" class="autofill-label" id="csAutofill" onclick="displayModalThree();" for="csFName">Autofilled</label><br>
+                <input style="display: none;" name="Credit Score - First Name" type="text" autocomplete="off" class="form-control" id="csFName" placeholder="First Name" required><br>
+                <input style="display: none;" name="Credit Score - Last Name" type="text" autocomplete="off" class="form-control" id="csLName" placeholder="Last Name" required><br>
+                <input style="display: none;" name="Credit Score - Home Address" type="address" autocomplete="off" class="form-control" id="csAddress" placeholder="Home Address" required><br>
+                <input style="display: none;" name="Credit Score - Date of Birth" type="text" autocomplete="off" class="form-control" id="csDOB" placeholder="Date of Birth" required><br>
+              </div>
+              <input type="radio" id="creditRadioNo" name="Save money on your insurance?" value="No thank you">
+              <label class="creditscore-radio" id="csradio2" for="creditRadioNo">No thank you</label><br><br>
+            </div>
+
+            <button class="back-button" onclick="return show('fpg7','fpg30');">MY INSURANCE NEEDS</button>
+        <button id="btn-csnext" type="submit" class="form-button" id="submit-form" onclick="checkValidation30(); getName();">NEXT</button><br>
+    </section>
+      <!--------------->
+
+        <!-- PAGE 30 -->
+        <section class="form-page-31" id="fpg31" style="display: none">
+          <div class="form">
+            <h6 class="form-progress-bar-description">Estimated time: Completed!</h6>
+            <progress class="progress-bar" id="form-progress-bar" value="100" max="100"></progress><br><br>
+            <img class="form-icon-1" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-2" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+            <img class="form-icon-3" id="form-profile-icon" style="display: none;" src="images/herb.png" alt="">
+    
+            <h6 class="form-profile-name">Jake Doe</h6>
+            <h6 class="form-profile-info">P: 123-123-1234 E: jake@myboardwalk.ca</h6>
+
+            <button class="help-button">
+              <a class="form-profile-help" onclick="confirmSubmitForm(); displayMessageSubmit();">
+                Need help? We can take it from here</a>
+            </button>
+    
+            <h1 id="form-title-fpg31" class="form-title"></h1><br>
+
+            <img class="finishedform-img" src="images/finished.png" alt="Finished form application for Boardwalk Insurance"><br><br>
+            <input type="checkbox" id="checkboxterms" name="Terms and Conditions" value="Agreed">
+            <label class="company-radio" for="checkboxterms">By proceeding, you agree to the <a class="links" href="/terms" target="_blank">terms and conditions</a> of this website</label><br><br><br>
+            </div>
+
+              <button class="back-button" onclick="return show('fpg30','fpg31');">GO BACK</button>
+              <button id="submit-button" class="form-button" onclick="JavaScript:return Validator();">
+              <a href="/redirect.html" onclick="displayMessageSubmit(); ">
+              </a>SUBMIT</button><br><br><br>
+        </section>
+        <!--------------->
+
+  </form>
+</body>
+<script>
+
+  // PASSWORD REMOVE THIS //
+  password = prompt('Enter password to view page');
+ 
+  if (password != pw) {
+    window.location = "http://127.0.0.1:5500/form.html"
+  }
+
+  // PREVENT NON-SUBMIT BUTTONS FROM SUBMTITING FORM //
+  myform.onsubmit = function () {
+    return false
+  }
+  $().ready(function () {
+
+    //---------------- INITIAL VALUES OF SPAN --------------------//
+    var sliders = $('.range-slider');
+    sliders.each(function (index, element) {
+      var slider = $(this);
+      slider.next('span').text(element.value);
+    })
+
+    $('.container').on('input', '.range-slider', function () {
+      var slider = $(this);
+      var sliderId = this.id;
+      var amount = this.value;
+      slider.next('span').text(amount);
+
+      var sliders = $('.range-slider');
+      var sliderCount = sliders.length;
+      var otherSlidersCount = sliderCount - 1;
+      sliders.each(function (index, element) {
+        var x_id = this.id;
+
+        if (x_id != sliderId) {
+          var totalChangeAmount = 100 - amount;
+          var sliderChangeAmount = totalChangeAmount / otherSlidersCount;
+          this.value = sliderChangeAmount;
+          $(this).next('span').text(sliderChangeAmount);
+        }
+      })
+    });
+  });
+
+// ---------------- FORMAT BUSINESS NAME ----------------//
+  function formatBusinessName() {
+    businessName = document.getElementById("businessname").value; 
+    var formatBusinessName = businessName.split(",")[0];
+    formatBusinessName = document.getElementById("businessname").innerHTML;
+  }
+   
+
+// ---------------- AUTOFILL ADDRESS --------------------//
+  var placesAutocomplete = places({
+    appId: 'plYC1BM3BEN3',
+    apiKey: '513bb572fd7c9ea69e10e6a47f1a850c',
+    countries: ['ca'],
+    container: document.getElementById("address-input"),
+    templates: {
+      value: function (suggestion) {
+        return suggestion.name;
+      }
+    }
+  }).configure({
+    type: 'address'
+  });
+
+  placesAutocomplete.on('change', function resultSelected(e) {
+    document.getElementById("city-input").value = e.suggestion.city + ", " + e.suggestion.country || '';
+  });
+
+  //---------------- AUTOFILL MAILING ADDRESS --------------------//
+  var placesAutocomplete = places({
+    appId: 'plYC1BM3BEN3',
+    apiKey: '513bb572fd7c9ea69e10e6a47f1a850c',
+    countries: ['ca'],
+    container: document.getElementById("maddress-input"),
+    templates: {
+      value: function (suggestion) {
+        return suggestion.name;
+      }
+    }
+  }).configure({
+    type: 'address'
+  });
+
+  placesAutocomplete.on('change', function resultSelected(e) {
+    document.getElementById("mcity-input").value = e.suggestion.city + ", " + e.suggestion.country || '';
+  });
+
+    //---------------- AUTOFILL CREDIT SCORE ADDRESS --------------------//
+    var placesAutocomplete = places({
+    appId: 'plYC1BM3BEN3',
+    apiKey: '513bb572fd7c9ea69e10e6a47f1a850c',
+    countries: ['ca'],
+    container: document.getElementById("csAddress"),
+    templates: {
+      value: function (suggestion) {
+        // SHOW STREET, CITY, COUNTRY ALL IN ONE FIELD // 
+        return suggestion.name + ", " + suggestion.city + ", " + suggestion.country || '';
+      }
+    }
+  }).configure({
+    type: 'address'
+  });
+
+  //---------------- RADIO CARD VALUES -----------------------//
+  radioCardOne = document.getElementById("radio-card-1");
+  radioCardTwo = document.getElementById("radio-card-2");
+  radioCardThree = document.getElementById("radio-card-3");
+  radioCardFour = document.getElementById("radio-card-4");
+
+  radioCardOne.onclick = function () {
+    radioCardOne.style.border = "4px solid #FF7545";
+    radioCardOne.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-1").checked = true;
+    radioCardTwo.style.border = "none";
+    radioCardThree.style.border = "none";
+    radioCardFour.style.border = "none";
+  }
+
+  radioCardTwo.onclick = function () {
+    radioCardTwo.style.border = "4px solid #FF7545";
+    radioCardTwo.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-2").checked = true;
+    radioCardOne.style.border = "none";
+    radioCardThree.style.border = "none";
+    radioCardFour.style.border = "none";
+  }
+
+  radioCardThree.onclick = function () {
+    radioCardThree.style.border = "4px solid #FF7545";
+    radioCardThree.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-3").checked = true;
+    radioCardTwo.style.border = "none";
+    radioCardOne.style.border = "none";
+    radioCardFour.style.border = "none";
+  }
+
+  radioCardFour.onclick = function () {
+    radioCardFour.style.border = "4px solid #FF7545";
+    radioCardFour.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-4").checked = true;
+    radioCardOne.style.border = "none";
+    radioCardThree.style.border = "none";
+    radioCardTwo.style.border = "none";
+  }
+
+// ------ DATE + TIME ------ //
+
+// Insurance Date
+var todayOne = new Date();
+document.getElementById("policystart-date").value = todayOne.getFullYear() + '-' +
+('0' + (todayOne.getMonth() + 1)).slice(-2) + '-' + ('0' + todayOne.getDate()).slice(-2);
+
+// -- YES NO RADIO BUTTON QUESTIONS -- //
+
+// Question 7 //
+radioCardFive = document.getElementById("radio-card-5");
+radioCardSix = document.getElementById("radio-card-6");
+
+  radioCardFive.onclick = function () {
+    radioCardFive.style.border = "4px solid #00A912";
+    radioCardFive.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-5").checked = true;
+    radioCardSix.style.border = "none";
+  }
+
+  radioCardSix.onclick = function () {
+    radioCardSix.style.border = "4px solid #EB0100";
+    radioCardSix.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-6").checked = true;
+    radioCardFive.style.border = "none";
+  }
+
+// Question 8 //
+radioCardSeven = document.getElementById("radio-card-7");
+radioCardEight = document.getElementById("radio-card-8");
+
+  radioCardSeven.onclick = function () {
+    radioCardSeven.style.border = "4px solid #00A912";
+    radioCardSeven.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-7").checked = true;
+    radioCardEight.style.border = "none";
+  }
+
+  radioCardEight.onclick = function () {
+    radioCardEight.style.border = "4px solid #EB0100";
+    radioCardEight.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-8").checked = true;
+    radioCardSeven.style.border = "none";
+  }
+
+  // Question 9 //
+radioCardNine = document.getElementById("radio-card-9");
+radioCardTen = document.getElementById("radio-card-10");
+
+  radioCardNine.onclick = function () {
+    radioCardNine.style.border = "4px solid #00A912";
+    radioCardNine.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-9").checked = true;
+    radioCardTen.style.border = "none";
+  }
+
+  radioCardTen.onclick = function () {
+    radioCardTen.style.border = "4px solid #EB0100";
+    radioCardTen.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-10").checked = true;
+    radioCardNine.style.border = "none";
+  }
+
+  // Question 10 //
+radioCardEleven = document.getElementById("radio-card-11");
+radioCardTwelve = document.getElementById("radio-card-12");
+
+  radioCardEleven.onclick = function () {
+    radioCardEleven.style.border = "4px solid #00A912";
+    radioCardEleven.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-11").checked = true;
+    radioCardTwelve.style.border = "none";
+  }
+
+  radioCardTwelve.onclick = function () {
+    radioCardTwelve.style.border = "4px solid #EB0100";
+    radioCardTwelve.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-12").checked = true;
+    radioCardEleven.style.border = "none";
+  }
+
+  // ---- CURRENT YEAR + PAST YEARS FOR START OF COMPANAY ---- //
+  var maxYearBuilt = new Date().getFullYear(),
+  minYearBuilt = maxYearBuilt - 80,
+  select = document.getElementById('yearStarted');
+
+  for (var i = minYearBuilt; i<=maxYearBuilt; i++){
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.innerHTML = i;
+    select.appendChild(opt);
+}
+
+// ---- CURRENT YEAR + PAST YEARS FOR YEAR BUILT DROPDOWN ---- //
+
+var maxYearBuilt = new Date().getFullYear(),
+minYearBuilt = maxYearBuilt - 80;
+select = document.getElementById('yearBuilt');
+
+for (var i = minYearBuilt; i<=maxYearBuilt; i++){
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.innerHTML = i;
+    select.appendChild(opt);
+}
+
+// -------- CURRENT YEAR + PAST YEARS FOR UPDATED DROPDOWN -------- //
+
+var maxUpdatedYear = new Date().getFullYear(),
+minUpdatedYear = maxUpdatedYear - 20,
+
+updatedSelectOne = document.getElementById('updatedYearOne');
+updatedSelectTwo = document.getElementById('updatedYearTwo');
+updatedSelectThree = document.getElementById('updatedYearThree');
+updatedSelectFour = document.getElementById('updatedYearFour');
+updatedSelectFive = document.getElementById('updatedYearFive');
+
+for (var i = minUpdatedYear; i<=maxUpdatedYear; i++){
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.innerHTML = i;
+    updatedSelectOne.appendChild(opt);
+}
+
+for (var i = minUpdatedYear; i<=maxUpdatedYear; i++){
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.innerHTML = i;
+    updatedSelectTwo.appendChild(opt);
+}
+
+for (var i = minUpdatedYear; i<=maxUpdatedYear; i++){
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.innerHTML = i;
+    updatedSelectThree.appendChild(opt);
+}
+
+for (var i = minUpdatedYear; i<=maxUpdatedYear; i++){
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.innerHTML = i;
+    updatedSelectFour.appendChild(opt);
+}
+
+for (var i = minUpdatedYear; i<=maxUpdatedYear; i++){
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.innerHTML = i;
+    updatedSelectFive.appendChild(opt);
+}
+
+// ------------------- BUSINESS INSURANCE AGE --------------------- //
+  var insuranceslider = document.getElementById("insuranceSliderRange");
+  var insuranceoutput = document.getElementById("insuranceage-value");
+  insuranceoutput.innerHTML = insuranceslider.value;
+
+  // ------------- DEFAULT INSURANCE VALUE ----------- //
+  insuranceoutput.innerHTML = "Never";
+
+  insuranceslider.oninput = function () {
+    if (insuranceslider.value == "0") {
+      insuranceoutput.innerHTML = "Never";
+      return;
+    }
+    if (insuranceslider.value == "1") {
+      insuranceoutput.innerHTML = "1 year";
+      return;
+    }
+    if (insuranceslider.value == "11") {
+      insuranceoutput.innerHTML = "More than 10 years";
+      return;
+    }
+    insuranceoutput.innerHTML = this.value + " years";
+  }
+
+// ------------------- GROSS REVENUES SLIDER RANGE ---------------- //
+  var sliderRevenues = document.getElementById("sliderRange");
+  var outputRevenues = document.getElementById("range-value");
+  outputRevenues.innerHTML = sliderRevenues.value;
+
+  // DEFAULT VALUE //
+  outputRevenues.innerHTML = "$0";
+  sliderRevenues.value == "0";
+
+  sliderRevenues.oninput = function () {
+    if (sliderRevenues.value == "3100000") {
+      outputRevenues.innerHTML = "More than $3,000,000";
+      return;
+    }
+
+    else if (sliderRevenues.value == "0") {
+      outputRevenues.innerHTML = "Less than $100,000";
+      return;
+    }
+    outputRevenues.innerHTML = "$" + this.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
+//------------------- US SALES SLIDER RANGE --------------------- //
+  var sliderUSSales = document.getElementById("sliderRangeTwo");
+  var outputUSsales = document.getElementById("range-value-two");
+  outputUSsales.innerHTML = sliderUSSales.value;
+
+  // DEFAULT VALUE //
+  outputUSsales.innerHTML = "0%";
+
+  sliderUSSales.oninput = function () {
+    outputUSsales.innerHTML = this.value + "%";
+}
+
+// ------------------- EMPLOYEE SLIDER RANGE -------------------- //
+  var sliderEmployee = document.getElementById("employeeSliderRange");
+  var employeeValue = document.getElementById("employee-value");
+  employeeValue.innerHTML = sliderEmployee.value;
+
+  // DEFAULT VALUE //
+  employeeValue.innerHTML = "No employees";
+  sliderEmployee.value == "0";
+
+  sliderEmployee.oninput = function () {
+    if(sliderEmployee.value == "0") {
+      employeeValue.innerHTML = "No employees";
+      return;
+    }
+    if(sliderEmployee.value == "1") {
+      employeeValue.innerHTML = "1 employee";
+      return;
+    }
+    if(sliderEmployee.value == "26") {
+      employeeValue.innerHTML = "More than 25 employees";
+      return;
+    }
+    employeeValue.innerHTML = this.value + " employees";
+}
+
+  // Question 21 //
+  radioCardThirteen = document.getElementById("radio-card-13");
+  radioCardFourteen = document.getElementById("radio-card-14");
+
+  radioCardThirteen.onclick = function () {
+    radioCardThirteen.style.border = "4px solid #00A912";
+    radioCardThirteen.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-13").checked = true;
+    radioCardFourteen.style.border = "none";
+  }
+
+  radioCardFourteen.onclick = function () {
+    radioCardFourteen.style.border = "4px solid #EB0100";
+    radioCardFourteen.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-14").checked = true;
+    radioCardThirteen.style.border = "none";
+  }
+
+// ---------------- BUSINESS LOCATION SLIDER RANGE -------------- //
+var sliderBusinessLocation = document.getElementById("businessLocationRange");
+var businessLocationValue = document.getElementById("businesslocation-value");
+businessLocationValue.innerHTML = sliderBusinessLocation.value;
+
+  // DEFAULT VALUE //
+  businessLocationValue.innerHTML = "$0";
+
+  sliderBusinessLocation.oninput = function () {
+    if(sliderBusinessLocation.value == "1050000") {
+      businessLocationValue.innerHTML = "More than $1,000,000";
+      return;
+    }
+    businessLocationValue.innerHTML = "$" + this.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+// ---------------- VEHICLE SLIDER RANGE -------------- //
+var sliderVehicleRange = document.getElementById("numberofVehiclesRange");
+var vehicleNumberValue = document.getElementById("vehicles-value");
+vehicleNumberValue.innerHTML = sliderVehicleRange.value;
+
+dotVehicleOne = document.getElementById("vehicleDotOne");
+dotVehicleTwo = document.getElementById("vehicleDotTwo");
+dotVehicleThree = document.getElementById("vehicleDotThree");
+dotVehicleFour = document.getElementById("vehicleDotFour");
+
+vehicleSlideOne = document.getElementById("vehicleInfoOne");
+vehicleSlideTwo = document.getElementById("vehicleInfoTwo");
+vehicleSlideThree = document.getElementById("vehicleInfoThree");
+vehicleSlideFour = document.getElementById("vehicleInfoFour");
+
+
+ // DEFAULT VALUE //
+ vehicleNumberValue.innerHTML = "1 vehicle";
+ dotVehicleOne.style.display = "none";
+ dotVehicleTwo.style.display = "none";
+ dotVehicleThree.style.display = "none";
+ dotVehicleFour.style.display = "none";
+
+ sliderVehicleRange.oninput = function ()
+{
+  if(sliderVehicleRange.value == "1") {
+    dynamicVehicleAnimations();
+    dotVehicleOne.style.display = "none";
+    dotVehicleTwo.style.display = "none";
+    dotVehicleThree.style.display = "none";
+    dotVehicleFour.style.display = "none";
+    vehicleArrowRight.style.display = "none";
+    vehicleArrowLeft.style.display = "none";
+    return;
+  }
+  if(sliderVehicleRange.value == "2") {
+    dynamicVehicleAnimations();
+    dotVehicleOne.style.display = "inline-block";
+    dotVehicleTwo.style.display = "inline-block";
+    dotVehicleThree.style.display = "none";
+    dotVehicleFour.style.display = "none";
+    return;
+  }
+  if(sliderVehicleRange.value == "3") {
+    dynamicVehicleAnimations();
+    dotVehicleOne.style.display = "inline-block";
+    dotVehicleTwo.style.display = "inline-block";
+    dotVehicleThree.style.display = "inline-block";
+    dotVehicleFour.style.display = "none";
+    return;
+  }
+  if(sliderVehicleRange.value == "4") {
+    dynamicVehicleAnimations();
+    dotVehicleOne.style.display = "inline-block";
+    dotVehicleTwo.style.display = "inline-block";
+    dotVehicleThree.style.display = "inline-block";
+    dotVehicleFour.style.display = "inline-block";
+    return;
+  }
+  if(sliderVehicleRange.value == "5") {
+    dynamicVehicleAnimations();
+    dotVehicleOne.style.display = "inline-block";
+    dotVehicleTwo.style.display = "inline-block";
+    dotVehicleThree.style.display = "inline-block";
+    dotVehicleFour.style.display = "inline-block";
+    return;
+  }
+  if(sliderVehicleRange.value == "6") {
+    dynamicVehicleAnimations();
+    dotVehicleOne.style.display = "inline-block";
+    dotVehicleTwo.style.display = "inline-block";
+    dotVehicleThree.style.display = "inline-block";
+    dotVehicleFour.style.display = "inline-block";
+    return;
+  }
+}
+
+// -------------------- DRIVERS SLIDER RANGE -------------------- //
+var sliderDriverRange = document.getElementById("numberofDriversRange");
+var driverNumberValue = document.getElementById("drivers-value");
+driverNumberValue.innerHTML = sliderDriverRange.value;
+
+dotDriverOne = document.getElementById("driverDotOne");
+dotDriverTwo = document.getElementById("driverDotTwo");
+dotDriverThree = document.getElementById("driverDotThree");
+dotDriverFour = document.getElementById("driverDotFour");
+
+ // DEFAULT VALUE //
+ driverNumberValue.innerHTML = "1 driver";
+
+ dotDriverOne.style.display = "none";
+ dotDriverTwo.style.display = "none";
+ dotDriverThree.style.display = "none";
+ dotDriverFour.style.display = "none";
+
+ sliderDriverRange.oninput = function ()
+{
+ if(sliderDriverRange.value == "1") {
+   dynamicDriverAnimations();
+   dotDriverOne.style.display = "none";
+   dotDriverTwo.style.display = "none";
+   dotDriverThree.style.display = "none";
+   dotDriverFour.style.display = "none";
+   return;
+ }
+ if(sliderDriverRange.value == "2") {
+   dynamicDriverAnimations();
+   dotDriverOne.style.display = "inline-block";
+   dotDriverTwo.style.display = "inline-block";
+   dotDriverThree.style.display = "none";
+   dotDriverFour.style.display = "none";
+   return;
+ }
+ if(sliderDriverRange.value == "3") {
+   dynamicDriverAnimations();
+   dotDriverOne.style.display = "inline-block";
+   dotDriverTwo.style.display = "inline-block";
+   dotDriverThree.style.display = "inline-block";
+   dotDriverFour.style.display = "none";
+   return;
+ }
+ if(sliderDriverRange.value == "4") {
+   dynamicDriverAnimations();
+   dotDriverOne.style.display = "inline-block";
+   dotDriverTwo.style.display = "inline-block";
+   dotDriverThree.style.display = "inline-block";
+   dotDriverFour.style.display = "inline-block";
+   return;
+ }
+ if(sliderDriverRange.value == "5") {
+   dynamicDriverAnimations();
+   dotDriverOne.style.display = "inline-block";
+   dotDriverTwo.style.display = "inline-block";
+   dotDriverThree.style.display = "inline-block";
+   dotDriverFour.style.display = "inline-block";
+   return;
+ }
+ if(sliderDriverRange.value == "6") {
+   dynamicDriverAnimations();
+   dotDriverOne.style.display = "inline-block";
+   dotDriverTwo.style.display = "inline-block";
+   dotDriverThree.style.display = "inline-block";
+   dotDriverFour.style.display = "inline-block";
+   return;
+ }
+}
+
+// -------------------- FORMAT LICENSE NUMBER -------------------- //
+function formatLicenseNumber(element) {
+    	let ele = document.getElementById(element.id);
+        ele = ele.value.split('-').join('');    // Remove dash (-) if mistakenly entered.
+
+        let finalVal = ele.match(/.{1,5}/g).join('-');
+        document.getElementById(element.id).value = finalVal;
+    }
+
+// -------------------- VEHICLE INFO SLIDES -------------------- //
+var vehicleSlideIndex = 1;
+showVehicleSlides(vehicleSlideIndex);
+
+  function plusVehicleSlides(n) {
+    showVehicleSlides(vehicleSlideIndex += n);
+  }
+
+  function currentVehicleSlide(n) {
+    showVehicleSlides(vehicleSlideIndex = n);
+  }
+
+  function showVehicleSlides(n) {
+    var i;
+    var vehicleSlides = document.getElementsByClassName("form-vehicle-info");
+    var vehicleDots = document.getElementsByClassName("vehicleDot");
+    if (n > vehicleSlides.length) { vehicleSlideIndex = 1 }
+    if (n < 1) { vehicleSlideIndex = vehicleSlides.length }
+    for (i = 0; i < vehicleSlides.length; i++) {
+      vehicleSlides[i].style.display = "none";
+    }
+    for (i = 0; i < vehicleDots.length; i++) {
+      vehicleDots[i].className = vehicleDots[i].className.replace(" active", "");
+    }
+    vehicleSlides[vehicleSlideIndex - 1].style.display = "block";
+    vehicleDots[vehicleSlideIndex - 1].className += " active";
+  }
+
+// -- DRIVER INFO SLIDES -- //
+var driverSlideIndex = 1;
+showDriverSlides(driverSlideIndex);
+
+  function plusSlides(n) {
+    showDriverSlides(driverSlideIndex += n);
+  }
+
+  function currentDriverSlide(n) {
+    showDriverSlides(driverSlideIndex = n);
+  }
+
+  function showDriverSlides(n) {
+    var i;
+    var driverSlides = document.getElementsByClassName("form-driver-info");
+    var driverDots = document.getElementsByClassName("driverDot");
+    if (n > driverSlides.length) { driverSlideIndex = 1 }
+    if (n < 1) { driverSlideIndex = driverSlides.length }
+    for (i = 0; i < driverSlides.length; i++) {
+      driverSlides[i].style.display = "none";
+    }
+    for (i = 0; i < driverDots.length; i++) {
+      driverDots[i].className = driverDots[i].className.replace(" active", "");
+    }
+    driverSlides[driverSlideIndex - 1].style.display = "block";
+    driverDots[driverSlideIndex - 1].className += " active";
+  }
+
+// ---------------- BUSINESS TOOLS SLIDER RANGE --------------- //
+var sliderBusinessTools = document.getElementById("businessToolsRange");
+var businessToolsValue = document.getElementById("businesstools-value");
+businessToolsValue.innerHTML = sliderBusinessTools.value;
+
+  // DEFAULT VALUE //
+  businessToolsValue.innerHTML = "$0";
+
+  sliderBusinessTools.oninput = function ()
+  {
+    if(sliderBusinessTools.value == "105000") {
+      businessToolsValue.innerHTML = "More than $100,000";
+      return;
+    }
+    businessToolsValue.innerHTML = "$" + this.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+// ---------------- INSURANCE CANCELLATIONS --------------- //
+  radioCardFiftheen = document.getElementById("radio-card-15");
+  radioCardSixteen = document.getElementById("radio-card-16");
+  txtInsuranceCancellation = document.getElementById("insuranceCancellationsBox");
+
+  radioCardFiftheen.onclick = function () {
+    radioCardFiftheen.style.border = "4px solid #00A912";
+    radioCardFiftheen.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-15").checked = true;
+    txtInsuranceCancellation.style.display = "none";
+    radioCardSixteen.style.border = "none";
+
+  }
+
+  radioCardSixteen.onclick = function () {
+    radioCardSixteen.style.border = "4px solid #EB0100";
+    radioCardSixteen.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-16").checked = true;
+    radioCardFiftheen.style.border = "none";
+    txtInsuranceCancellation.style.display = "inline";
+  }
+
+// ---------------- CLAIMS PAST 5 YEARS --------------- //
+radioCardSeventeen = document.getElementById("radio-card-17");
+radioCardEigthteen = document.getElementById("radio-card-18");
+bClaimsSlider = document.getElementById("businessClaimsSlider");
+
+radioCardSeventeen.onclick = function () {
+  radioCardSeventeen.style.border = "4px solid #00A912";
+  radioCardSeventeen.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-17").checked = true;
+    radioCardEigthteen.style.border = "none";
+    bClaimsSlider.style.display = "none";
+}
+
+  radioCardEigthteen.onclick = function () {
+    radioCardEigthteen.style.border = "4px solid #EB0100";
+    radioCardEigthteen.style.transition = "border 200ms ease-in";
+    document.getElementById("radio-18").checked = true;
+    radioCardSeventeen.style.border = "none";
+    bClaimsSlider.style.display = "inline";
+  }
+
+  // ------------------- BUSINESS CLAIMS SLIDER --------------------- //
+  var claimsSlider = document.getElementById("numberofClaimsRange");
+  var claimsOutput = document.getElementById("claims-value");
+  claimsOutput.innerHTML = claimsSlider.value;
+
+  // CLAIM INFO DOTS FOR SLIDES //
+  dotClaimsOne = document.getElementById("claimsDotOne");
+  dotClaimsTwo = document.getElementById("claimsDotTwo"); 
+  dotClaimsThree = document.getElementById("claimsDotThree");
+
+  // DEFAULT VALUE //
+  dotClaimsOne.style.display = "none";
+  dotClaimsTwo.style.display = "none";
+  dotClaimsThree.style.display = "none";
+  claimsOutput.innerHTML = "No claims";
+  claimsSlider.value == "0";
+
+  claimsSlider.oninput = function () {
+    if (claimsSlider.value == "0") {
+      claimsOutput.innerHTML = "No claims";
+      return;
+    }
+    if (claimsSlider.value == "1") {
+      claimsOutput.innerHTML = "1 claim";
+      dotClaimsOne.style.display = "none";
+      dotClaimsTwo.style.display = "none";
+      dotClaimsThree.style.display = "none";
+
+
+      return;
+    }
+    if (claimsSlider.value == "2") {
+      claimsOutput.innerHTML = "2 claims";
+      dotClaimsOne.style.display = "inline-block";
+      dotClaimsTwo.style.display = "inline-block";
+      dotClaimsThree.style.display = "none";
+      return;
+    }
+    if (claimsSlider.value == "3") {
+      claimsOutput.innerHTML = "3 claims";
+      dotClaimsOne.style.display = "inline-block";
+      dotClaimsTwo.style.display = "inline-block";
+      dotClaimsThree.style.display = "inline-block";
+      return;
+    }
+    if (claimsSlider.value == "11") {
+      claimsOutput.innerHTML = "10+ claims";
+      return;
+    }
+    claimsOutput.innerHTML = this.value + " claims";
+  }
+
+// -------------------- CLAIMS INFO SLIDES -------------------- //
+var claimsSlideIndex = 1;
+showClaimsSlides(claimsSlideIndex);
+
+  function plusClaimsSlides(n) {
+    showClaimsSlides(claimsSlideIndex += n);
+  }
+
+  function currentClaimsSlide(n) {
+    showClaimsSlides(claimsSlideIndex = n);
+  }
+
+  function showClaimsSlides(n) {
+    var i;
+    var claimsSlides = document.getElementsByClassName("form-claim-info");
+    var claimsDots = document.getElementsByClassName("claimsDot");
+    if (n > claimsSlides.length) { claimsSlideIndex = 1 }
+    if (n < 1) { claimsSlideIndex = claimsSlides.length }
+    for (i = 0; i < claimsSlides.length; i++) {
+      claimsSlides[i].style.display = "none";
+    }
+    for (i = 0; i < claimsDots.length; i++) {
+      claimsDots[i].className = claimsDots[i].className.replace(" active", "");
+    }
+    claimsSlides[claimsSlideIndex - 1].style.display = "block";
+    claimsDots[claimsSlideIndex - 1].className += " active";
+  }
+
+// -- CREDIT SCORE MODAL -- //
+function displayModalTwo() {
+  var modalTwo = document.getElementById("cs-modal-two");
+  var spanTwo = document.getElementsByClassName("close")[1];
+
+  modalTwo.style.display = "block";
+
+  spanTwo.onclick = function() {
+    modalTwo.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modalTwo) {
+      modalTwo.style.display = "none";
+    }
+  }
+}
+
+// -- CREDIT SCORE MODAL -- //
+function displayModalThree() {
+  var modalThree = document.getElementById("cs-modal-three");
+  var spanThree = document.getElementsByClassName("close")[1];
+
+  modalThree.style.display = "block";
+
+  spanThree.onclick = function() {
+    modalThree.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modalThree) {
+      modalThree.style.display = "none";
+    }
+  }
+}
+
+  // -------------- CREDIT SCORE LOGIC -------------- //
+  creditScoreYes = document.getElementById("creditRadioYes");
+  creditScoreNo = document.getElementById("creditRadioNo");
+  creditScoreNext = document.getElementById("btn-csnext");
+  creditScoreBack = document.getElementById("btn-csback");
+
+  csFirstName = document.getElementById("csFName");
+  csLastName = document.getElementById("csLName");
+  csLocation = document.getElementById("csAddress");
+  csDate = document.getElementById("csDOB");
+  csAutofillLabel = document.getElementById("csAutofill");
+
+  firstName = document.getElementById("firstname").value.trim();
+  lastName = document.getElementById("lastname").value.trim();
+
+  formPage30 = document.getElementById("fpg30");
+
+  // ---- RADIO BUTTON POSTIONING ---- //
+  var modalRadio = document.getElementById("csradio2");
+  var modalLabel = document.getElementById("creditRadioNo");
+
+  modalRadio.style.display = "relative";
+  modalLabel.style.display = "relative";
+  modalRadio.style.bottom = "50px";
+  modalLabel.style.bottom = "50px";
+
+// -- CREDIT SCORE YES (ONCLICK) -- //
+  creditScoreYes.onclick = function () {
+    creditScoreNext.enabled = "true";
+
+    csFirstName.style.display = "inline";
+    csLastName.style.display = "inline";
+    csLocation.style.display = "inline";
+    csDate.style.display = "inline";
+    csAutofillLabel.style.display = "inline";
+
+// ---- POPULATE FIRST AND LAST NAME ---- //
+    document.getElementById("csFName").value = firstName;
+    document.getElementById("csLName").value = lastName;
+    document.getElementById("csAddress").value = "";
+    document.getElementById("csDOB").value = "";
+
+    var modalRadio = document.getElementById("csradio2");
+    var modalLabel = document.getElementById("creditRadioNo");
+
+    modalRadio.style.top = "5px";
+    modalLabel.style.top = "5px";
+    modalRadio.style.bottom = "0px";
+    modalLabel.style.bottom = "0px";
+    formPage30.style.height = "800px";
+  }
+
+  // --- CREDIT SCORE NO (ONCLICK) --- //
+    creditScoreNo.onclick = function () {
+    creditScoreNext.enabled = "true";
+
+    csFirstName.style.display = "none";
+    csLastName.style.display = "none";
+    csLocation.style.display = "none";
+    csDate.style.display = "none";
+
+    document.getElementById("csFName").value = "N/A";
+    document.getElementById("csLName").value = "N/A";
+    document.getElementById("csAddress").value = "N/A";
+    document.getElementById("csDOB").value = "N/A";
+
+    var modalRadio = document.getElementById("csradio2");
+    var modalLabel = document.getElementById("creditRadioNo");
+
+    formPage30.style.height = "650px";
+  }
+
+// ------ TERMS AND CONDITIONS CHECKBOX ------ //
+btnSubmit = document.getElementById("submit-button");
+cbTerms = document.getElementById("checkboxterms");
+
+    btnSubmit.disabled = true;
+    btnSubmit.style.backgroundColor = "#bfbfbf";
+
+    cbTerms.onchange = function() {
+    if(this.checked) {
+     btnSubmit.disabled = false;
+     btnSubmit.style.backgroundColor = "#ff7754";
+  }
+  else {
+    btnSubmit.disabled = true;
+    btnSubmit.style.backgroundColor = "#bfbfbf";
+    } 
+  }
+</script>
+</html>

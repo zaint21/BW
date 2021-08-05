@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Submit A Claim | Boardwalk Insurance</title>
+    <script src="js/claim.js"></script>
+    <link rel="stylesheet" href="claim.css">
+    <link rel="icon" href="images/Boardwalk-Dark.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7211036.js"></script>
+    <!-- End of HubSpot Embed Code -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MY98WKEEN5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-MY98WKEEN5');
+    </script>
+    <!-- End of HubSpot Embed Code -->
+</head>
+
+<body>
+    <!-- NAV -->
+    <div id="nav" class="nav">
+        <a id="navlink1" class="active" href="/home">Home</a>
+        <a id="navlink2" href="/home#about">About</a>
+        <a id="navlink3" href="/claim">Claims</a>
+        <a id="navlink4" href="/faq">FAQs</a>
+    </div>
+
+    <!-- PAGE ONE -->
+    <form id="claimsform" action="https://formspree.io/f/xpzoongr" method="POST">
+        <section class="claim-page-1" id="cpg1">
+            <h6 class="form-progress-bar-description">Estimated time: 2 minutes</h6>
+            <progress class="progress-bar" id="form-progress-bar" value="0" max="100">25%</progress><br>
+            <div class="form">
+                <h1 class="claim-h1">Submit A Claim</h1>
+                <input name="First Name" type="text" class="form-control name" id="firstname"
+                    placeholder="First Name" required autocomplete="off"><br>
+
+                <input name="Last Name" type="text" class="form-control name" id="lastname"
+                    placeholder="Last Name" required autocomplete="off"><br>
+
+                <input name="Business Name" type="text" class="form-control" placeholder="Business Name"
+                    id="business-name" required autocomplete="off"><br>
+                <input name="Policy Number" type="text" class="form-control" placeholder="Policy Number"
+                    id="policy-number" required autocomplete="off"><br><br><br>
+                <button id="form-button" class="form-button" onclick="checkValidation1();">CONTINUE</button><br>
+            </div>
+        </section>
+
+        <!-- PAGE TWO -->
+        <section class="claim-page-2" id="cpg2" style="display: none">
+            <h6 class="form-progress-bar-description">Estimated time: 1 minute</h6>
+            <progress class="progress-bar" id="form-progress-bar" value="50" max="100">25%</progress><br>
+            <div class="form">
+                <h1 class="claim-h1">Contact Information</h1>
+                <input name="Contact Person" type="text" class="form-control" placeholder="Contact Person"
+                    id="contact-person" required autocomplete="off"><br>
+                <input name="Contact Phone" type="tel" class="form-control" placeholder="Contact Phone"
+                    id="contact-phone" required autocomplete="off"><br>
+                <input name="Email" type="email" class="form-control" placeholder="Contact Email"
+                    id="contact-email" required autocomplete="off"><br>
+                <h6 id="phone-error"></h6>
+                <button class="back-button" onclick="return show('cpg1','cpg2');">GO BACK</button>
+                <button id="form-button" class="form-button" onclick="checkValidation2();">NEXT</button><br>
+            </div>
+        </section>
+
+        <!-- PAGE THREE -->
+        <section class="claim-page-3" id="cpg3" style="display: none">
+            <h6 class="form-progress-bar-description">Estimated time: Less than a minute</h6>
+            <progress class="progress-bar" id="form-progress-bar" value="90" max="100">25%</progress><br>
+            <div class="form">
+                <h1 class="claim-h1">Loss Information</h1><br><br>
+                <label class="claim-label" for="date-of-loss">Date of Loss</label><br>
+                <input name="Date of Loss" type="date" class="form-control" placeholder="Date of Loss" id="date-of-loss"
+                    required autocomplete="off"><br>
+                <label class="claim-label" for="type-of-loss">Type of Loss</label><br>
+                <select id="type-of-loss" name="Type of Loss" placeholder="Please Select" class="form-select" required>
+                    <option id="defaultpfp-option" selected="true" disabled="disabled">Please Select</option>
+                    <option value="Property">Property</option>
+                    <option value="Liability">Liability</option>
+                    <option value="Cyber">Cyber</option>
+                    <option value="Auto">Auto</option>
+                    <option value="D&O">D&O</option>
+                    <option value="E&O">E&O</option>
+                    <option value="Other">Other</option>
+                </select><br>
+                <input style="display: none;" name="Insured Vehicle" type="text" class="form-control"
+                    placeholder="Insured Vehicle" id="insured-vehicle" required><br>
+                <input style="display: none;" name="Driver" type="text" class="form-control" placeholder="Driver"
+                    id="driver" required>
+                <h6 id="select-error"></h6>
+                <button class="back-button" onclick="return show('cpg2','cpg3');">GO BACK</button>
+                <button id="form-button" class="form-button" onclick="checkValidation3();">SUBMIT</button>
+            </div>
+        </section>
+
+        <section class="claim-page-4" id="cpg4" style="display: none">
+            <div class="form">
+                <h1 class="claim-h1"></h1>
+                <button class="back-button" onclick="">GO HOME</button>
+            </div>
+        </section>
+    </form>
+    <br><br><br>
+</body>
+<script>
+
+// DISABLE NON-SUBMIT BUTTONS FROM SUBMITTING FORM //
+claimsform.onsubmit = function () {
+    return false
+  }
+
+  // SHOW QUESTIONS IF DROPDOWN VALUE IS AUTO //
+
+    typeOfLoss = document.getElementById("type-of-loss");
+    formSize = document.getElementById("cpg3")
+
+    typeOfLoss.oninput = function () {
+        driver = document.getElementById("driver");
+        insuredVehicle = document.getElementById("insured-vehicle");
+
+        if (typeOfLoss.value == "Auto") {
+            driver.style.display = "inline";
+            insuredVehicle.style.display = "inline";
+            formSize.style.height = "700px";
+
+        }
+        else {
+            driver.style.display = "none";
+            insuredVehicle.style.display = "none";
+            formSize.style.height = "600px";
+        }
+    }
+
+// GET TODAY'S DATE //
+var today = new Date();
+document.getElementById("date-of-loss").value = today.getFullYear() + '-' +
+('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
+</script>
+
+</html>

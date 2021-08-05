@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVBAR */
+
+.nav {
+    margin: 0;
+    height: 40px;
+    position: relative;
+    margin-top: 20px;
+    transition: ease-in-out 0.45s;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: black;
+    margin: 5px 22px;
+    transition: color ease-in 175ms;
+}
+
+.navbutton {
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    width: 120px;
+    height: 35px;
+    margin-right: 30px;
+    background-color: #305787;
+    border-color: transparent;
+    color: white;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 300ms ease-in-out;
+    transition: border-radius 300ms ease-in;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+.navbutton:hover {
+    background: #3384e6;
+}
+
+.main {
+    margin: 50px 300px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.main-title {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.main-main-title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.career-card {
+    width: 100%;
+    border-radius: 12px;
+    height: 60px;
+    margin: 30px 0;
+    box-shadow: 0px 0px 15px -8px black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.career-card:hover {
+    box-shadow: 0px 0px 25px -8px black;
+}
+
+.career-card .arrow {
+    width: 25px;
+    position: relative;
+    right: 30px;
+    bottom: 25px;
+    float: right;
+}
+
+.card-title {
+    margin: 0px 20px;
+    font-size: 18px;
+}
+
+/* FOOTER */
+ *,*:before, :after {
+    box-shadow: border-box;
+}
+
+footer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #203550;
+}
+
+.footer > * {
+    flex: 1 100%;
+}
+
+.footer-left {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer-left img {
+    width: 160px;
+    margin: 0 0;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.footer ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-right {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-flow: row wrap;
+}
+
+.footer-right .link {
+    margin: 6px 0;
+    font-weight: 400;
+}
+
+.footer-right > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.box {
+    list-style-type: none;
+}
+
+.box a {
+    color: #999;
+    text-decoration: none;
+    transition: 0.3s;
+    transition-delay: 0.1s;
+}
+
+.box a:hover {
+    color: white;
+    font-size: 16.5px;
+}
+
+.footer-bottom {
+    margin: 0px 0px;
+    font-weight: bold;
+}
+
+.footer-left p {
+    padding-right: 20%;
+    color: #999;
+}
+
+.footer-info {
+    font-weight: 400;
+}
+
+.socials a {
+    background: #364a62;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socials a i {
+    color: #e7f2f4;
+    padding: 10px 11px;
+    font-size: 20px;
+    transition: 0.4s;
+    transition-delay: 0.1s;
+}
+
+.socials a i:hover {
+    color: #3787e2;
+}
+
+@media screen and (min-width: 600px) {
+    .footer-right > * {
+        flex: 1;
+    }
+    .footer-left {
+        flex: 1 0px;
+    }
+    .footer-right {
+        flex: 2 0px;
+    }
+
+    .footer {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main {
+        margin: 50px 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+        margin: 50px 20px;
+    }
+
+    p, li {
+        font-size: 13px;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    .footer-left img {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .career-card {
+      height: 80px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .career-card .arrow {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #navlink4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbutton {
+        display: none;
+    }
+
+    .main-main-title {
+        font-size: 1.4em;
+    }
+
+    .main .main-title {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .career-card {
+        margin-top: 40px;
+    }
+
+    .main-main-title {
+        font-size: 1.6em;
+    }
+
+    .main .main-title {
+        font-size: 1.2em;
+    }
+}

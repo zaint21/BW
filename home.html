@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>Boardwalk Insurance | Smarter Business Insurance </title>
+  <meta name="description" content="Combining insurance and technology to change the way you experience insurance. Become familiar with how we can help your business today">
+  <script src="js/nav.js"></script>
+  <link rel="icon" href="images/Boardwalk-Dark.svg">
+  <link rel="stylesheet" href="main.css">
+  <script src="js/main.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- GOOGLE FONTS -->
+  <link
+  href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap"
+  rel="stylesheet">
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/700dcab713.js" crossorigin="anonymous"></script>
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7211036.js"></script>
+<!-- End of HubSpot Embed Code -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MY98WKEEN5"></script>
+  <script>
+    // GOOGLE ANALYTICS //
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-MY98WKEEN5');
+
+    $(document).ready(function () {
+
+    // MOBILE NAVBAR ICON
+      var menu = "close";
+      $(".mobile-one .menu-toggle").click(function () {
+        document.getElementById("nav").style.margin = "0";
+        document.getElementById("nav").style.padding = "0";
+        if (menu === "close") {
+          $(this).parent().next(".mobile-nav").css("transform", "translate(-370px, 0)");
+          document.getElementById("nav").style.height = "250px";
+          menu = "open";
+        } else {
+          $(this).parent().next(".mobile-nav").css("transform", "translate(-1000px, 0)");
+          document.getElementById("nav").style.background = "white";
+          document.getElementById("nav").style.height = "60px";
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("nav").style.height = "60px";
+          }
+          menu = "close";
+        }
+      });
+    });
+
+    $('a.scroll-link').click(function (e) {
+      e.preventDefault();
+      $id = $(this).attr('href');
+      $('body,html').animate({
+        scrollTop: $($id).offset().top - 20
+      }, 750);
+    });
+  </script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <div id="nav" class="nav">
+    <a id="navlink1" href="#home">Home</a>
+    <a id="navlink2" href="#about">About</a>
+    <a id="navlink3" href="/claim">Claims</a>
+    <a id="navlink4" href="/faq">FAQs</a>
+    <a href="/form"><button id="navbutton" class="navbutton">GET STARTED</button></a>
+    <img class="nav-logo" id="nav-logo" src="images/Boardwalk-Light.svg" alt="Boardwalk Insurance's clean and minimalistic light logo">
+    <div id="mobile" class="mobile-wrapper">
+      <div class="mobile mobile-one">
+        <div class="header">
+          <div id="menu-toggle" class="menu-toggle">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="mobile-nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="/claim">Claims</a></li>
+            <li><a href="/faq">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOME -->
+  <section id="home" class="home">
+    <img class="logo" id="logo-1" src="images/Boardwalk-Dark.svg" alt="Boardwalk Insurance's clean and minimalistic dark logo">
+    <img class="home-img" src="images/main.png" alt="Boardwalk Insurance joins you from the bottom up and helps you climb the mountain">
+    <h1 class="home-title title">Welcome to Boardwalk Insurance</h1>
+    <p class="home-description description">We are redefining the way businesses purchase insurance.
+      Investing in technology & implementing new processes to supercharge your insurance experience. <br><br>
+      <b>Choose a broker that invests in you.</b>
+    </p>
+    <div class="buttons">
+      <a href="/form"><button class="home-button">GET A QUOTE NOW</button></a>
+    </div>
+    <div class="mouse-box">
+      <div class="mouse-icon">
+        <div class="scrolling-wheel">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <h1 class="panel-title title">Some of our partners</h1>
+  <section class="panel">
+    <div class="panel">
+      <div class="logos">
+        <img class="panel-1" src="images/intact.png" alt="Intact Insurance">
+        <img class="panel-2" src="images/aviva.png" alt="Aviva Insurance">
+        <img class="panel-3" src="images/economical.png" alt="Economical Insurance">
+        <img class="panel-4" src="images/northbridge.png" alt="Northbridge Insurance">
+        <img class="panel-5" src="images/travellers.png" alt="Travellers Insurance">
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="video" id="video">
+    <video controls>
+      <source src="images/video.mp4" type="video/mp4" alt="A short video on what Boardwalk Insurance is and how we function">
+    </video>
+    <div class="wrapper">
+      <h1 class="video-title title">Follow the magic</h1>
+      <p class="video-description description">The secret to our success is not only
+        to give you a great buying experience but to reproduce that
+        experience as often as possible.</p>
+    </div>
+  </section>
+
+  <!-- FORM -->
+  <section class="app">
+    <div class="preview">
+      <img class="img-2" src="images/app-2.png" alt="Get a quote with our simple online application">
+    </div>
+    <div class="app">
+      <div class="wrapper">
+        <h1 class="feature-h1 title">Your time matters</h1>
+        <p class="feature-p description">We will assist you in finding the best price based on questions
+          that tell us more about you. Answer a few questions so that
+          we can understand your business and help you protect it.
+        </p><br>
+        <a href="/form" style="text-decoration: none;">
+            <button id="feature-about-button" class="about-button">TAKE ME THERE</button>
+        </a>
+        <br>
+        <div>
+        </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about"><br><br><br><br><br>
+    <h1 class="main-h1 title">Our established qualities</h1>
+    <p class="main-p description">We don’t claim to be experts at everything, nor should you
+      be insured with someone who does. Boardwalk is geared towards small to medium
+      sized businesses. We operate within a small range of industry classes. Our dedication
+      to commercial insurance within these focus classes allows us to better understand and
+      address many of the perils your business faces.
+    </p>
+    <br><br><br>
+    <img class="about-img anim" id="img-1" src="images/rocket.svg" alt="Our rocket will take you to the moon and back" data-delay="0s">
+    <img class="about-img anim" id="img-2" src="images/enviornment.svg" alt="We like looking out for other small businesses" data-delay="0.6s">
+    <img class="about-img anim" id="img-3" src="images/father.svg" alt="We will support you and keep you under our wing" data-delay="1.2s">
+
+    <div class="wrapper" id="about-wrapper">
+      <br>
+      <h1 class="img-title title-left title">Fast and Responsive</h1>
+      <p class="img-description description">"Faster than a <b>rocket</b>"</p>
+      <a href="/form"><button class="about-button">LAUNCH</button></a>
+    </div>
+
+    <div class="wrapper" id="about-wrapper">
+      <br>
+      <h1 class="img-title title">Attracted Towards Small Businesses</h1>
+      <p class="img-description description">"<b>Great oaks</b> from <b>little acorns grow</b>"</p>
+      <a href="/form"><button class="about-button">GROW WITH US</button></a>
+    </div>
+
+    <div class="wrapper" id="about-wrapper">
+      <br>
+      <h1 class="img-title title-right title">A Supportive Team</h1>
+      <p class="img-description description">"We will <b>guide</b> you through the process"</p>
+      <a href="/form"><button class="about-button">LEARN MORE</button></a>
+    </div>
+
+    <!-- PRICING -->
+    <section id="pricing" class="pricing">
+      <br><br><br>
+      <h1 class="pricing-title title">Our most popular policies</h1>
+      <div class="wrapper">
+        <div class="pricing-card">
+          <img class="price-card-image" src="images/office.png" alt="Office Insurance">
+          <h4 class="card-title">Office Insurance</h4><br>
+          <a class="price-info"><img class="price-icon" src="images/checkmark.svg"
+              alt="checkmark" />Building</a><br><br>
+          <a class="price-info"><img class="price-icon" src="images/checkmark.svg" alt="checkmark" />Office
+            Contents</a><br><br>
+          <a class="price-info"><img class="price-icon" src="images/checkmark.svg" alt="checkmark" />General
+            Liability</a><br><br>
+          <div class="price-wrapper">
+            <p class="price-time">from</p>
+            <h1 class="card-price">$55</h1><br>
+            <p class="price-time">/ month</p>
+          </div><br>
+          <a href="/form"><button class="price-button">GET STARTED</button></a>
+        </div>
+        <div class="pricing-card">
+          <img class="price-card-image" src="images/contractor.png" alt="Contractors Insurance">
+          <h4 class="card-title">Contractor Insurance</h4><br>
+          <a class="price-info"><img class="price-icon" src="images/checkmark.svg"
+              alt="checkmark" />Property</a><br><br>
+          <a class="price-info"><img class="price-icon" src="images/checkmark.svg"
+              alt="checkmark" />Equipment</a><br><br>
+          <a class="price-info"><img class="price-icon" src="images/checkmark.svg" alt="checkmark" />General
+            Liability</a><br><br>
+          <div class="price-wrapper">
+            <p class="price-time">from</p>
+            <h1 class="card-price">$70</h1>
+            <p class="price-time">/ month</p>
+          </div><br>
+          <a href="/form"><button class="price-button">GET STARTED</button></a>
+        </div>
+        <div class="pricing-card">
+          <img class="price-card-image" src="images/retailer.png" alt="Retailers Insurance">
+          <h4 class="card-title">Retailer Insurance</h4><br>
+          <a class="price-info"><img class="price-icon" src="images/checkmark.svg"
+              alt="checkmark" />Building</a><br><br>
+          <a class="price-info"><img class="price-icon" src="images/checkmark.svg"
+              alt="checkmark" />Stock/Contents</a><br><br>
+          <a class="price-info"><img class="price-icon" src="images/checkmark.svg" alt="checkmark" />General
+            Liability</a><br><br>
+          <div class="price-wrapper">
+            <p class="price-time">from</p>
+            <h1 class="card-price">$90</h1>
+            <p class="price-time">/ month</p>
+          </div><br>
+          <a href="/form"><button class="price-button">GET STARTED</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- UNDER THE HOOD -->
+    <section class="boardwalk">
+      <br>
+      <div class="text">
+        <h5 class="boardwalk-label">BOARDWALK INSURANCE</h5>
+        <h1 class="boardwalk-title title">Under the hood</h1>
+        <p class="boardwalk-description description">Our policy management system is free from the confines of out of the box third
+          party software.
+          Designed and built by us, from the ground up, with endless possibilities. It is constantly learning,
+          improving and identifying ways to serve you better.
+        </p>
+      </div>
+      <div class="card" id="card-1">
+        <img class="card-img" src="images/collab.svg" alt="Boardwalk Insurance likes collabing with others">
+        <h2 class="card-title">Collaboration Over Competition</h2>
+        <p class="card-bio description">Focused on giving back to the small business community</p>
+      </div>
+      <div class="card" id="card-3">
+        <img class="card-img" src="images/career-devlopment.svg" alt="A structure that is proven to work">
+        <h2 class="card-title">Thought-out Structure</h2>
+        <p class="card-bio description">Set on finding the right policy for your business</p>
+      </div>
+      <div class="card" id="card-4">
+        <img class="card-img" src="images/scale.svg" alt="We can help anyone no matter what size">
+        <h2 class="card-title">Easily Scalable</h2>
+        <p class="card-bio description">Building the technology to speed up your business</p>
+      </div>
+    </section>
+
+    <!-- WEB APP -->
+    <img class="webapp-img" src="images/app.png" alt="A look at the Boardwalk Web App in progress">
+    <section id="webapp" class="webapp">
+      <div class="wrapper">
+        <h1 class="webapp-h1 title">myBoardwalk App</h1>
+        <p class="webapp-p">
+          *Expected release of the application will be near the end of 2021.
+        </p>
+        <br>
+        <div>
+          <div class="webapp-content">
+            <a class="webapp-title"><img class="webapp-icon" src="images/checkmark.svg" alt="checkmark" />24/7
+              Access</a>
+            <p class="webapp-description">Easily manage your policy anytime</p>
+          </div>
+        </div>
+        <div>
+          <div class="webapp-content">
+            <a class="webapp-title"><img class="webapp-icon" src="images/checkmark.svg" alt="checkmark" />Access from
+              anywhere</a>
+            <p class="webapp-description">Access important coverage documents on-the-go</p>
+          </div>
+        </div>
+        <div>
+          <div class="webapp-content">
+            <a class="webapp-title"><img class="webapp-icon" src="images/checkmark.svg" alt="checkmark" />Seamless
+              digital experience</a>
+            <p class="webapp-description">Everything you need in one place</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <h1 class="testimonials-title title">What others think of us</h1>
+      <div class="wrapper">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div id="testimonial-card" class="card">
+              <img id="testimonialPhoto" class="testimonials-icon" src="images/kevin.png" alt="Kevin Dacosta">
+              <h6 id="testimonialName" class="testimonial-name">Kevin Dacosta</h6>
+              <h5 id="testimonialOccupation" class="testimonial-occupation description">Renovation Contractor - Toronto</h5>
+              <img class="testimonials-star" src="images/stars.png" alt="Five stars">
+              <img onclick="plusSlides(-1)" class="cardarrow" id="arrow-left" src="images/left-arrow.png" alt="Left arrow">
+              <img onclick="plusSlides(1);" class="cardarrow" id="arrow-right" src="images/right-arrow.png" alt="Right arrow">
+              <p id="testimonialDescription" class="testimonial-text"><b>"</b>Very efficient, professional and friendly
+                company. Quality service and good rates. Herb was always available to assist with my claims
+                when I had trouble reaching my insurance company. My requests were handled very
+                quickly!<b>"</b>
+              </p>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div id="testimonial-card" class="card">
+              <img id="testimonialPhoto" class="testimonials-icon" src="images/minh.png" alt="Minh Trang">
+              <h6 id="testimonialName" class="testimonial-name">Minh Trang</h6>
+              <h5 id="testimonialOccupation" class="testimonial-occupation description">Marketing Agency - Toronto</h5>
+              <img class="testimonials-star" src="images/stars.png" alt="Five stars">
+              <img onclick="plusSlides(-1)" class="cardarrow" id="arrow-left" src="images/left-arrow.png" alt="Left arrow">
+              <img onclick="plusSlides(1);" class="cardarrow" id="arrow-right" src="images/right-arrow.png" alt="Right arrow">
+              <p id="testimonialDescription" class="testimonial-text"><b>"</b>This was my second time submitting a
+                quote for another one of my business. Once again, Boardwalk and their staff were very helpful.
+                Their standard for service was exceptional. The follow up and work they did to
+                handle my quote was so easy. I would recommend Boardwalk to any business owner!<b>"</b>
+              </p>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div id="testimonial-card" class="card">
+              <img id="testimonialPhoto" class="testimonials-icon" src="images/eric.png" alt="Eric McKinnon">
+              <h6 id="testimonialName" class="testimonial-name">Eric McKinnon</h6>
+              <h5 id="testimonialOccupation" class="testimonial-occupation description">Restaurant Owner - Mississauga</h5>
+              <img class="testimonials-star" src="images/stars.png" alt="Five stars">
+              <img onclick="plusSlides(-1)" class="cardarrow" id="arrow-left" src="images/left-arrow.png" alt="Left arrow">
+              <img onclick="plusSlides(1);" class="cardarrow" id="arrow-right" src="images/right-arrow.png" alt="Right arrow">
+              <p id="testimonialDescription" class="testimonial-text"><b>"</b>I reached out to many brokers before my
+                friend recommended Boardwalk to me. Immediately after submitting my quote request I was
+                contacted right away. I was blown away at how fast they turned a quote around for my restaurant.<b>"</b>
+              </p>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div id="testimonial-card" class="card">
+              <img id="testimonialPhoto" class="testimonials-icon" src="images/hamza.png" alt="Hamza Syed">
+              <h6 id="testimonialName" class="testimonial-name">Hamza Syed</h6>
+              <h5 id="testimonialOccupation" class="testimonial-occupation description">HVAC Contractor - Brampton</h5>
+              <img class="testimonials-star" src="images/stars.png" alt="Five stars">
+              <img onclick="plusSlides(-1);" class="cardarrow" id="arrow-left" src="images/left-arrow.png" alt="Left arrow">
+              <img onclick="plusSlides(1);" class="cardarrow" id="arrow-right" src="images/right-arrow.png" alt="Right arrow">
+              <p id="testimonialDescription" class="testimonial-text"><b>"</b>I was a little skeptical about Boardwalk
+                and how they do things. However, we decided to move forward with obtaining a policy with them. Eight months after moving to our
+                new location, we had a break in and a few thousand dollars worth of my tools were taken. They were very
+                helpful at every step of the process. Could not be happier with rates & services!!<b>"</b>
+              </p>
+            </div>
+          </div>
+          <br>
+          <div>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+    </section>
+
+    <!-- GET A QUOTE PANEL -->
+    <section id="form-action" class="form-action">
+      <div class="fa-wrapper">
+        <img class="fa-img" src="images/panel.png" alt="Boardwalk is like a boardgame. We are simple, fun and easy to play">
+        <h1 class="fa-title title">Get A Quote Now!</h1>
+        <p class="fa-p description">You worked hard to build your business and it is our business to protect it.
+          Whether you are a contractor, property owner, retail shop owner or any other business,
+          Boardwalk has the insurance product to protect it. What are you waiting for? Check out our prices today!</p>
+        <a href="/form"><button id="about-button" class="about-button">LET'S GO!</button></a><br><br>
+        <a href="#contact"><button id="fa-button-2" class="about-button">CONTACT US</button></a><br>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="class">
+      <div class="footer-left">
+        <img src="images/Boardwalk-Light.svg" alt="Boardwalk Insurance's light logo">
+        <p>Have any questions or concerns? Our team is here for you. Feel free to give
+          us a call, use our chat feature or email us: contact@myboardwalk.ca | 416-477-9771</p>
+        </p>
+        <div class="socials">
+          <a href="https://www.facebook.com/Boardwalk-Insurance-107274211304445/"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com/boardwalkinsurance?igshid=u1eo3muzbp22"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/boardwalk-insurance"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-info">Boardwalk Insurance Corporation a division of Oracle RMS</p>
+          <h4>&copy; Copyright 2021 Boardwalk Insurance. All rights reserved.</h4>
+        </div>
+      </div>
+      <ul class="footer-right" style="list-style-type:none;">
+        <li>
+          <h2 class="footer-title">Explore</h2>
+          <ul class="box">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#pricing">Pricing</a></li>
+            <li class="link"><a href="/form">Get a Quote</a></li>
+            <li class="link"><a href="/faq">F.A.Q</a></li>
+            <li class="link"><a href="/claim">Submit a Claim</a></li>
+          </ul>
+        </li>
+        <li>
+          <h2 class="footer-title">Legal</h2>
+          <ul class="box">
+            <li class="link"><a href="/terms">Terms and Conditions</a></li>
+            <li class="link"><a href="/privacy">Privacy Policy</a></li>
+            <li class="link"><a href="/careers">Careers at Boardwalk</a></li>
+            <li class="link"><a href="/claim">Claims</a></li>
+          </ul>
+        </li>
+        <li>
+          <h2 class="footer-title">Visit Us</h2>
+          <ul class="box">
+            <a href="https://www.google.com/maps/place/100+Drumlin+Cir+Suite+101,
+            +Concord,+ON+L4K+3E5/@43.7850885,-79.4893312,17z/data=!3m1!4b1!4m5!3m4!1s0
+            x882b2e6c783ba98b:0x839077b9f56e2f5d!8m2!3d43.7850846!4d-79.48714255">
+              <li>100 Drumlin Circle Ste. 101, L4K 3E5</li>
+              <li>Concord, Ontario</li><br>
+              <li>contact@myboardwalk.ca <br>416-477-9771</li>
+            </a>
+          </ul>
+        </li>
+    </footer>
+</body>
+<script>
+  // ON SCROLL ANIMATION //
+  const images = document.querySelectorAll('.anim');
+  observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.intersectionRatio > 0) {
+        entry.target.style.animation = `anim 0.75s ${entry.target.dataset.delay} forwards ease-out`
+      }
+      else {
+        entry.target.style.animation = 'none';
+      }
+    })
+  })
+  images.forEach(image => {
+    observer.observe(image);
+  })
+
+  // TESTIMONIAL LOGIC //
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+</script>
+</html>

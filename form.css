@@ -1,0 +1,1692 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+/* GLOBAL STYLES */
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(239, 239, 240);
+}
+
+/* NAVBAR */
+.nav {
+    margin: 0;
+    height: 40px;
+    position: relative;
+    margin-top: 20px;
+    transition: ease-in-out 0.45s;
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: black;
+    margin: 5px 22px;
+    transition: color ease-in 175ms;
+}
+
+.app-button, .form-button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: #305787;
+    border-color: transparent;
+    color: white;
+    border-radius: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background 300ms ease-in-out;
+    transition: border-radius 300ms ease-in;
+    outline: none;
+    transition: 0.4s;
+}
+/* ABOUT */
+
+/* FORM */
+
+#form-body {
+    background: rgb(240, 239, 239);
+}
+
+#fpg1, #fpg2, #fpg3, #fpg4, #fpg5, #fpg6, #fpg7, #fpg8, #fpg9, #fpg10,
+#fpg11, #fpg12, #fpg13, #fpg14, #fpg15, #fpg16, #fpg17, #fpg18, #fpg19,
+#fpg20, #fpg21, #fpg22, #fpg23, #fpg24, #fpg25, #fpg26, #fpg27, #fpg28, #fpg29, #fpg30, #fpg31 {
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    background: rgb(239, 239, 240);
+    padding: 24px;
+    width: 1600px;
+    height: 650px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 14px -8px black;
+}
+
+#fpg1, #fpg2, #fpg11, #fpg12, #fpg13, #fpg14, #fpg15, #fpg18,
+#fpg21, #fpg22, #fpg23, #fpg30 {
+    height: 620px;
+}
+
+#fpg16 {
+    height: 600px;
+}
+
+#fpg3, #fpg4, #fpg5, #fpg19, #fpg21, 
+#fpg24, #fpg25, #fpg27, #fpg28, #fpg29 {
+    height: 720px;
+}
+
+#fpg20 {
+    height: 800px;
+}
+
+#fpg26 {
+    height: 750px;
+}
+
+
+/* PROGRESS BAR STYLING */
+
+.progress-Mainbar {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 0.20fr));
+  }
+
+.progress-step {
+    text-align: center;
+    position: relative;
+}
+
+.step-count {
+      cursor: default;
+      height: 30px;
+      width: 30px;
+      margin: 0 auto;
+      border-radius: 50%;
+      color: white;
+      line-height: 30px;
+      z-index: 100;
+      border: 6px solid white;
+      font-size: 0.8rem;
+      font-family: 'Poppins', sans-serif;
+}
+
+.step-count-img {
+    width: 30px;
+}
+
+ .progress-step .step-count {
+        background-color: #305787;
+      }
+
+  .step-description {
+      margin-top: 5px;
+      font-size: 0.8rem;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .step-description a {
+      cursor: default;
+      text-decoration: none;
+      font-size: 14px;
+      color: black;
+      transition: 0.3s;
+  }
+
+.progressBarLine {
+    width: 0%;
+    float: left;
+    margin: 0px 150px;
+    margin-top: 25px;
+    position: relative;
+    top: 25px;
+    border-top: 3px solid rgb(220, 219, 219);
+}
+
+.form-progress-bar-description {
+     font-family: 'Hammersmith One', sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     margin: 0;
+ }
+
+ .progress-bar {
+    width: 600px;
+    height: 15px;
+    margin: 0;
+ }
+
+ .form-page-label {
+     font-family: 'Poppins', sans-serif;
+     font-size: 13px;
+     display: inline;
+     margin: 0 5px;
+ }
+
+ #fpg1 #form-profile-icon {
+    width: 110px;
+}
+
+ #form-profile-icon {
+    width: 80px;
+}
+
+.form-page-1 .form-button {
+    animation: btn-shake 1.75s forwards 4s ease-in-out;
+}
+
+.form-button {
+    background: #FF7754;
+    margin: 0 10px;
+    animation: btn-enlarge 15s ease 10s infinite normal none;
+}
+
+.form-button:hover {
+    border-radius: 30px;
+    background-color: #c55a3f;
+}
+
+.form-profile-name, .form-profile-info, .form-profile-help {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.help-button {
+    margin: 5px 0;
+    width: 280px;
+    height: 5px;
+    border: none;
+    border-color: transparent;
+}
+
+.form-profile-help {
+    color: #26456a;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form-profile-name {
+    font-size: 14px;
+}
+
+.form-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+
+.form-title-question {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
+}
+
+#formQuestionOne, #formQuestionThree {
+    font-size: 60px;
+    color: #6bbe66;
+}
+
+#formQuestionTwo, #formQuestionFour {
+    font-size: 60px;
+    color: #eb0100;
+}
+
+.autofill-label {
+    background: #FF7754;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 350px;
+    cursor: pointer;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+}
+
+/* BUSINESS NAME STYLING */
+.pac-container {
+    font-family: 'Lato', sans-serif;
+}
+
+.pac-item {
+    height: 40px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.pac-item:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.pac-matched { 
+    font-weight: 600;
+}
+
+.pac-item-query {
+    font-size: 15px;
+}
+
+#fpg1 .form-title  {
+    font-size: 42px;
+}
+
+.form-select  {
+    width: 430px;
+    font-family: 'Poppins', sans-serif;
+    border-color: transparent;
+    padding: 10px 0px 10px 3px;
+    margin: 15px 80px;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: background 200ms ease-in;
+    -webkit-box-shadow: 0px 0px 12px -15px black;
+    box-shadow: 0px 0px 20px -12px black;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+}
+
+.form .form-control {
+    font-family: 'Poppins', sans-serif;
+    border-color: transparent;
+    padding: 10px 0px 10px 3px;
+    width: 420px;
+    margin: 15px 80px;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: background 200ms ease-in;
+    -webkit-box-shadow: 0px 0px 12px -15px black;
+    box-shadow: 0px 0px 20px -12px black;
+    transition: 0.6s;
+}
+
+.form .form-control:focus, .form-select:focus, .form .address-form-control:focus {
+   outline: none;
+   box-shadow: none;
+   border: 2.5px solid #FF7754;
+}
+
+ .form-img {
+     margin: 100px;
+     float: right;
+     width: 600px;
+     height: 400px;
+     border-radius: 32px;
+     box-shadow: 0px 0px 50px -12px black;
+ }
+
+.back-button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: #305787;
+    border-color: transparent;
+    color: white;
+    border-radius: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background 300ms ease-in-out;
+    transition: border-radius 300ms ease-in;
+    outline: none;
+    transition: 0.4s;
+}
+
+.back-button:hover {
+    border-radius: 30px;
+    background: #467dc2;
+}
+
+.form .form-control:invalid {
+    border-color: 2px solid red;
+  }
+
+.company-radio, .creditscore-radio {
+      font-family: "Poppins", sans-serif;
+      cursor: pointer;
+      font-size: 17px;
+  }
+
+.creditscore-radio {
+    font-size: 18px;
+}
+
+.csimg-info {
+    position: relative;
+    cursor: pointer;
+    top: 5px;
+    width: 25px;
+    margin-left: 20px;
+}
+
+#csImageModalOne {
+    position: relative;
+    margin-left: 10px;
+}
+
+#csradio1 {
+    position: relative;
+    left: 10px;
+}
+
+#csradio2 {
+    position: relative;
+    right: 140px;
+}
+
+#creditRadioNo {
+    position: relative;
+    right: 150px;
+}
+
+.finishedform-img {
+    width: 250px;
+}
+
+.mailing-checkbox {
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    right: 130px;
+    top: 10px;
+  }
+
+.algolia-places .form-control {
+    height: 50px;
+    width: 435px;
+  }
+
+.ap-icon-pin, .ap-icon-clear {
+      width: 20px;
+      height: 70px;
+      margin-right: 33%;
+  }
+
+.ap-dropdown-menu {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.radio-wrapper {
+    display: inline-flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.radio-card-img {
+    width: 110px;
+    margin-top: 20px;
+}
+
+.radio-yesno-img {
+    width: 90px;
+    margin-top: 30px;
+}
+
+.radio-card {
+    width: 250px;
+    height: 260px;
+    margin: 0 20px;
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px -12px black;
+}
+
+.yesno {
+    height: 220px;
+}
+
+.radio-card-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 20px 20px;
+
+}
+
+#radio-alert-one, #radio-alert-two, #radio-alert-three, #radio-alert-four, #radio-alert-five,
+#premise-alert-one, #premise-alert-two {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #FF7754;
+    font-weight: 600;
+}
+
+.slider {
+    width: 500px;
+}
+
+.span-value {
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+.date-label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: black;
+  }
+
+#insuranceSliderRange, #grossSalesRange {
+    width: 420px;
+}
+
+#insuranceage-value {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#fpg15 .fpg15-label {
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: black;
+  }
+
+  #fpg15 .fpg15-span {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+  #fpg15 .range-percentage {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  #fpg15 .range-slider {
+    width: 500px;
+  }
+
+  #btn-add {
+    background:#FF7754;
+  }
+
+  .img-operation {
+    position: relative;
+    display: inline;
+    top: 5px;
+    height: 30px;
+    width: 35px;
+    margin: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  #operation-2 {
+      position: relative;
+      left: 20px;
+  }
+
+  #fpg15 .h1-total {
+      font-family: 'Lato', sans-serif;
+      font-size: 16px;
+      margin-top: 0px;
+  }
+
+  .rangeslider {
+    font-family: 'Poppins', sans-serif;
+    color: #305787;
+}
+
+  .rangevalues {
+   font-size: 28px;
+   font-weight: 600;
+}
+
+  #form-back-button {
+      width: 400px;
+  }
+
+  .h6-error {
+    color: #FF7754;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  /* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+#cs-modal-two .modal-content {
+    height: 300px;
+}
+
+#cs-modal-three .modal-content {
+    height: 400px;
+    width: 600px;
+}
+
+#csImageModalThree {
+    margin: auto 220px;
+    width: 150px;
+}
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border-radius: 24px;
+    padding: 30px 20px;
+    border: 1px solid #888;
+    height: 450px;
+    font-size: 15px;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .modal-logo {
+    width: 140px;
+    text-align: center;
+    position: relative;
+    left: 10px;
+  }
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .automobile-img {
+      width: 45px;
+      margin: 5px 5px;
+  }
+
+  .driver-img {
+    width: 20px;
+    margin: 5px 5px;
+}
+
+  #vehicleImgSix {
+      width: 25px;
+  }
+
+  /* WOMAN DRIVER ICON */
+  #driverImgTwo, #driverImgFour {
+    width: 27px;
+  }
+
+  #driverImgSix {
+      position: relative;
+      bottom: 10px;
+      width: 25px
+  }
+
+  #driverOne-date, #driverOne-gender, #driverTwo-date, #driverTwo-gender, 
+  #driverThree-date, #driverThree-gender, #driverFour-date, #driverFour-gender {
+    width: 200px; 
+    margin: 15px 10px;
+  }
+
+  #driverOne-vin, #driverTwo-vin, #driverThree-vin, #driverFour-vin {
+    width: 455px;
+  }
+
+  #driverOne-year, #driverTwo-year, #driverThree-year, #driverFour-year {
+      width: 80px;
+      margin: 15px 5px;
+  }
+
+  #driverOne-make, #driverOne-model, #driverTwo-make, #driverTwo-model,
+  #driverThree-make, #driverThree-model, #driverFour-make, #driverFour-model 
+{
+    width: 170px;
+    margin: 15px 5px;
+}
+
+#driverOne-mileage, #driverTwo-mileage, #driverThree-mileage, #driverFour-mileage {
+    width: 100px;
+    margin: 15px 5px;
+}
+
+#driverOne-owner, #primaryDriverList1, #driverTwo-owner, #primaryDriverList2,
+#driverThree-owner, #primaryDriverList3, #driverFour-owner, #primaryDriverList4 {
+  width: 160px;
+  margin: 15px 5px;
+}
+
+#claimOne-status, #claimTwo-status, #claimThree-status {
+    width: 150px;
+    margin: 5px 10px;
+}
+
+#claimOne-cost, #claimTwo-cost, #claimThree-cost {
+    width: 250px;
+    margin: 5px 10px;
+}
+
+  .vehicleDot, .claimsDot, .driverDot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 60%;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.6s ease;
+  }
+
+  .vehicleDot:hover, .claimsDot:hover, .driverDot:hover {
+    background-color: #FF7754;
+  }
+
+  .form .cardarrow {
+    width: 15px;
+    position: relative;
+    cursor: pointer;
+    } 
+    
+  #arrow-left {
+    bottom: 180px;
+    right: 270px;
+}
+
+   #arrow-right {
+    bottom: 180px;
+    left: 270px;
+}
+
+#claims-value {
+    font-size: 16px;
+}
+
+/* FORM */
+
+/* KEYFRAMES */
+
+@keyframes anim {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes btn-shake {
+    10%, 90% {
+      transform: translate3d(-10px, 0, 0);
+    }
+
+    20%, 80% {
+      transform: translate3d(10px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+      transform: translate3d(-10px, 0, 0);
+    }
+
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+  
+/* Copy this @keyframes block to your CSS*/
+@keyframes btn-enlarge {
+    0.0%{
+    }
+    2.0%{
+        transform: scale(1);
+        transform: translate(0, 10px);
+    }
+    4%{
+        transform: scale(1);
+        transform: translate(0, -10px);
+    }
+    7%{
+        transform: scale(1.1);
+    }
+    8.5%{
+        transform: scale(1);
+    }
+}
+
+/* KEYFRAMES */
+
+/* MEDIA QUERIES */
+
+/* MIN LENGTH TO SHOW PROGRESSS BAR */
+@media screen and (max-width: 1120px) {
+    .progress-Mainbar {
+        display: none;
+    }
+
+    .progressBarLine {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 539px) {
+    #form-body {
+        background: rgb(240, 239, 239);
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    #fpg1, #fpg2, #fpg3, #fpg4, #fpg5, #fpg6, #fpg7, #fpg8, #fpg9, #fpg10,
+    #fpg11, #fpg12, #fpg13, #fpg14, #fpg15, #fpg16, #fpg17, #fpg18, #fpg19,
+    #fpg20, #fpg21, #fpg22, #fpg23, #fpg24, #fpg25, #fpg26, #fpg27, #fpg28, #fpg29,
+    #fpg30, #fpg31  {
+        margin-top: 0px;
+        width: 300px;
+        height: 150px;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    #fpg4, #fpg5, #fpg8 {
+        height: 300px;
+    }
+
+    .form-progress-bar-description {
+       font-size: 13px;
+     }
+
+     .progress-bar {
+        height: 15px;
+        width: 300px;
+     }
+
+     #fpg1 #form-profile-icon {
+        width: 80px;
+    }
+
+    .form-profile-info {
+        font-size: 12px;
+    }
+
+    #cs-modal-two .modal-content {
+        height: 500px;
+        width: 300px;
+    }
+
+    #cs-modal-three .modal-content {
+        height: 500px;
+        width: 300px;
+    }
+
+    #csImageModalThree {
+        margin: auto 90px;
+        width: 100px;
+    }
+
+    .form-profile-name {
+        font-size: 13px;
+    }
+
+    .form-title {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    #fpg1 .form-title  {
+        font-size: 28px;
+    }
+
+    .mailing-checkbox {
+        right: 60px;
+        font-size: 14px;
+    }
+
+     .form-select  {
+        width: 260px;
+        margin-left: 0px;
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .autofill-label { 
+        font-size: 13px;
+        position: relative;
+        right: 130px;
+    }
+
+    .form .form-control {
+        width: 260px;
+        margin-left: 0;
+        margin-right: 0;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .company-radio {
+        font-size: 11px;
+    }
+
+    .form-button {
+        width: 120px;
+        height: 45px;
+        font-size: 12px;
+        margin: 0 5px;
+        font-size: 11px;
+        font-weight: 750;
+    }
+
+    .back-button {
+        width: 120px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 750;
+    }
+
+    .algolia-places .form-control {
+        width: 270px;
+        margin-left: 0px;
+        height: 45px;
+        font-size: 14px;
+      }
+
+    .ap-icon-pin, .ap-icon-clear {
+          margin-right: -30px;
+      }
+
+    .ap-dropdown-menu {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .date-label {
+        font-size: 14px;
+    }
+
+    .modal-content {
+        width: 250px;
+    }
+
+    .csimg-info {
+        width: 20px;
+    }
+
+    .creditscore-radio {
+        font-size: 14px;
+    }
+
+    #creditRadioNo {
+        right: 85px;
+    }
+
+    #csradio2 {
+        right: 75px;
+    }
+
+    .radio-card-img {
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .radio-yesno-img {
+        width: 80px;
+        margin-top: 40px;
+    }
+
+    #operation-2 {
+        left: 0px;
+    }
+
+    #fpg8 .slider {
+        width: 280px;
+    }
+
+    #fpg12 .slider {
+        width: 280px;
+    }
+
+    #fpg13 .slider {
+        width: 280px;
+    }
+
+    #fpg15 .range-slider {
+        width: 280px;
+    }
+    
+    #fpg17 .slider {
+        width: 280px;
+    }
+
+    #fpg18 .slider {
+        width: 280px;
+    }
+
+    #fpg22 .slider {
+        width: 280px;
+    }
+
+    #fpg23 .slider {
+        width: 280px;
+    }
+
+    #fpg24 .slider {
+        width: 280px;
+    }
+
+    #fpg28 .slider {
+        width: 280px;
+    }
+
+    #claims-value {
+        margin: 0 100px;
+    }
+
+    #fpg24 .rangevalues {
+        font-size: 24px;
+    }
+
+    .radio-wrapper {
+        display: inline-block;
+    }
+
+    .operation-2 {
+        position: relative;
+        right: 120px;
+    }
+
+    .radio-card {
+        height: 230px;
+        margin: 40px 0;
+    }
+
+    .radio-card-title {
+        font-size: 20px;
+    }
+
+    #fpg8 .fpg8-label {
+        font-size: 16px;
+    }
+
+    #form-back-button {
+        width: 250px;
+    }
+
+    #driverOne-date, #driverOne-gender, #driverTwo-date, #driverTwo-gender, 
+    #driverThree-date, #driverThree-gender, #driverFour-date, #driverFour-gender {
+      width: 250px; 
+      font-size: 13px;
+    }
+
+    #driverOne-vin, #driverTwo-vin, #driverThree-vin, #driverFour-vin {
+        width: 250px;
+      }
+
+    #driverOne-make, #driverTwo-make, #driverThree-make, #driverFour-make {
+      width: 140px;
+  }
+
+  #driverOne-model, #driverTwo-model, #driverThree-model, #driverFour-model {
+    width: 250px;
+}
+  
+  #driverOne-owner, #driverTwo-owner, #driverThree-owner, #driverFour-owner {
+    width: 125px;
+    font-size: 13px;
+  }
+
+  #primaryDriverList1, #primaryDriverList2, #primaryDriverList3, #primaryDriverList4 {
+      width: 250px;
+      font-size: 13px;
+  }
+
+    #claimOne-status, #claimTwo-status, #claimThree-status {
+    width: 270px;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+  .finishedform-img {
+        width: 250px;
+    }
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 800px) {
+    #form-body {
+        background: rgb(240, 239, 239);
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    #fpg1, #fpg2, #fpg3, #fpg4, #fpg5, #fpg6, #fpg7, #fpg8, #fpg9, #fpg10,
+    #fpg11, #fpg12, #fpg13, #fpg14, #fpg15, #fpg16, #fpg17, #fpg18, #fpg19,
+    #fpg20, #fpg21, #fpg22, #fpg23, #fpg24, #fpg25, #fpg26, #fpg27, #fpg28, #fpg29,
+    #fpg30, #fpg31  {
+        margin-top: 0px;
+        width: 500px;
+        height: 150px;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    #fpg4, #fpg5, #fpg8 {
+        height: 300px;
+    }
+
+    .form-progress-bar-description {
+       font-size: 14px;
+     }
+
+     .progress-bar {
+        height: 20px;
+        width: 400px;
+     }
+
+     #fpg1 #form-profile-icon {
+        width: 80px;
+    }
+
+    .form-profile-info {
+        font-size: 12px;
+    }
+
+    .autofill-label { 
+        font-size: 13px;
+        position: relative;
+        right: 40px;
+    }
+
+    .form-profile-name {
+        font-size: 15px;
+    }
+
+    .form-title {
+        font-size: 26px;
+        width: 100%;
+    }
+
+    #cs-modal-two .modal-content {
+        height: 500px;
+        width: 350px;
+    }
+
+    #cs-modal-three .modal-content {
+        height: 500px;
+        width: 350px;
+    }
+
+    #csImageModalThree {
+        margin: auto 90px;
+    }
+
+    #fpg1 .form-title  {
+        font-size: 32px;
+    }
+
+     .form-select  {
+        width: 330px;
+        margin-left: 80px;
+        font-size: 16px;
+    }
+
+    .form .form-control {
+        width: 330px;
+        margin-left: 80px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .company-radio {
+        font-size: 14px;
+    }
+
+    .mailing-checkbox {
+        right: 100px;
+        font-size: 14px;
+    }
+
+    .form-button {
+        width: 160px;
+        height: 45px;
+        font-size: 13px;
+        margin: 0 5px;
+        font-weight: 750;
+    }
+
+    .back-button {
+        width: 160px;
+        height: 45px;
+        font-size: 13px;
+        font-weight: 750;
+    }
+
+    .algolia-places .form-control {
+        width: 340px;
+        margin-left: 80px;
+        height: 45px;
+        font-size: 14px;
+      }
+
+    .ap-icon-pin, .ap-icon-clear {
+          margin-right: 20px;
+      }
+
+    .ap-dropdown-menu {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .date-label {
+        font-size: 15px;
+    }
+
+    .radio-card-img {
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .radio-yesno-img {
+        width: 90px;
+        margin-top: 40px;
+    }
+
+    .creditscore-radio {
+        font-size: 15px;
+    }
+
+    #creditRadioNo {
+        right: 130px;
+    }
+
+    #csradio2 {
+        right: 120px;
+    }
+
+    .modal-content {
+        width: 400px;
+    }
+
+    #operation-2 {
+        left: 0px;
+    }
+
+    #fpg8 .slider {
+        width: 350px;
+    }
+
+    #fgp11 .slider {
+        width: 350px;
+    }
+
+    #fpg12 .slider {
+        width: 350px;
+    }
+
+    #fpg13 .slider {
+        width: 350px;
+    }
+
+    #fpg19 .slider {
+        width: 350px;
+    }
+
+    #fpg20 .slider {
+        width: 350px;
+    }
+
+    #fpg15 .range-slider {
+        width: 350px;
+    }
+
+    .radio-wrapper {
+        display: inline-block;
+    }
+
+    .radio-card {
+        height: 230px;
+        margin: 40px 0;
+    }
+
+    .radio-card-title {
+        font-size: 20px;
+    }
+
+    #fpg8 .fpg8-label {
+        font-size: 16px;
+    }
+
+    #driverOne-date, #driverOne-gender, #driverTwo-date, #driverTwo-gender, 
+    #driverThree-date, #driverThree-gender, #driverFour-date, #driverFour-gender {
+      width: 155px; 
+      margin: 15px 10px;
+      font-size: 13px;
+    }
+
+    #driverOne-vin, #driverTwo-vin, #driverThree-vin, #driverFour-vin {
+        width: 400px;
+        position: relative;
+        right: 30px;
+      }
+
+    #driverOne-make, #driverOne-model, #driverTwo-make, #driverTwo-model,
+    #driverThree-make, #driverThree-model, #driverFour-make #driverFour-model {
+      width: 140px;
+      margin: 15px 5px;
+  }
+  
+  #driverOne-owner, #primaryDriverList1, #driverTwo-owner, #primaryDriverList2
+  #driverThree-owner, #primaryDriverList3, #driverFour-owner, #primaryDriverList4 {
+    width: 130px;
+    font-size: 14px;
+    margin: 15px 5px;
+  }
+
+  #claimOne-status, #claimTwo-status, #claimThree-status,
+  #claimOne-cost, #claimTwo-cost, #claimThree-cost {
+    width: 150px;
+    font-size: 14px;
+  }
+  
+    #form-back-button {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1325px){
+    #form-body {
+        background: rgb(240, 239, 239);
+    }
+
+    #fpg1, #fpg2, #fpg3, #fpg4, #fpg5, #fpg6, #fpg7, #fpg8, #fpg9, #fpg10,
+    #fpg11, #fpg12, #fpg13, #fpg14, #fpg15, #fpg16, #fpg17, #fpg18, #fpg19,
+    #fpg20, #fpg21, #fpg22, #fpg23, #fpg24, #fpg25, #fpg26, #fpg27, #fpg28, #fpg29,
+    #fpg30, #fpg31  {
+        margin-top: 50px;
+        width: 800px;
+        height: 550px;
+        border-radius: 24px;
+        box-shadow: none;
+    }
+
+    #fpg4, #fpg5, #fpg8 {
+        height: 600px;
+    }
+
+    .form-progress-bar-description {
+       font-size: 14px;
+     }
+
+     .progress-bar {
+        height: 20px;
+        width: 600px;
+     }
+
+     #fpg1 #form-profile-icon {
+        width: 80px;
+    }
+
+    .form-profile-info {
+        font-size: 13px;
+    }
+
+    .form-profile-name {
+        font-size: 14px;
+    }
+
+    .form-title {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .autofill-label { 
+        font-size: 14px;
+        position: relative;
+        right: 30px;
+    }
+
+    #fpg1 .form-title  {
+        font-size: 34px;
+    }
+
+     .form-select  {
+        width: 350px;
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .mailing-checkbox {
+        right: 110px;
+        font-size: 14px;
+    }
+
+    .form .form-control {
+        width: 350px;
+        margin-left: 80px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .company-radio {
+        font-size: 15px;
+    }
+
+    .form-button {
+        width: 180px;
+        height: 45px;
+        font-size: 12px;
+        margin: 0 5px;
+        font-size: 13px;
+        font-weight: 800;
+    }
+
+    .back-button {
+        width: 180px;
+        height: 45px;
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .algolia-places .form-control {
+        width: 360px;
+        margin-left: 80px;
+        height: 45px;
+        font-size: 14px;
+      }
+
+    .ap-icon-pin, .ap-icon-clear {
+          margin-right: 150px;
+      }
+
+    .ap-dropdown-menu {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .radio-card-img {
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .creditscore-radio {
+        font-size: 15px;
+    }
+
+    #creditRadioNo {
+        right: 130px;
+    }
+
+    #csradio2 {
+        right: 120px;
+    }
+
+    #operation-2 {
+        left: 20px;
+    }
+
+    #fpg8 .slider {
+        width: 350px;
+    }
+
+    #fgp11 .slider {
+        width: 350px;
+    }
+
+    #fpg12 .slider {
+        width: 450px;
+    }
+
+    #fpg13 .slider {
+        width: 450px;
+    }
+
+    #fpg19 .slider {
+        width: 450px;
+    }
+
+    #fpg20 .slider {
+        width: 450px;
+    }
+
+    #fgp15 .range-slider {
+        width: 350px;
+    }
+
+    .premise {
+        margin: 15px 50px;
+    }
+
+    .radio-wrapper {
+        display: inline-block;
+    }
+
+    .radio-card {
+        height: 230px;
+        margin: 40px 0;
+    }
+
+    .finishedform-img {
+        width: 230px;
+    }
+
+    .radio-card-title {
+        font-size: 20px;
+    }
+
+    #fpg8 .fpg8-label {
+        font-size: 16px;
+    }
+
+    #driverOne-date, #driverOne-gender, #driverTwo-date, #driverTwo-gender, 
+    #driverThree-date, #driverThree-gender, #driverFour-date, #driverFour-gender {
+      width: 160px; 
+      margin: 15px 10px;
+      font-size: 14px;
+    }
+
+    #claimOne-status, #claimTwo-status, #claimThree-status {
+        width: 150px;
+        font-size: 14px;
+    }
+    
+    #claimOne-cost, #claimTwo-cost, #claimThree-cost {
+        width: 180px;
+    }
+
+    #form-back-button {
+        width: 360px;
+    }
+}
+@media screen and (min-width: 1326px) and (max-width: 1670px) {
+    #form-body {
+        background: rgb(240, 239, 239);
+    }
+
+    #fpg1, #fpg2, #fpg3, #fpg4, #fpg5, #fpg6, #fpg7, #fpg8, #fpg9, #fpg10,
+    #fpg11, #fpg12, #fpg13, #fpg14, #fpg15, #fpg16, #fpg17, #fpg18, #fpg19,
+    #fpg20, #fpg21, #fpg22, #fpg23, #fpg24, #fpg25, #fpg26, #fpg27, #fpg28, #fpg29,
+    #fpg30, #fpg31  {
+        margin-top: 30px;
+        width: 1300px;
+        height: 590px;
+        border-radius: 24px;
+        box-shadow: 0px 0px 20px -12px black;
+    }
+
+    #fpg3 {
+        height: 680px;
+    }
+
+    .autofill-label { 
+        font-size: 14px;
+        position: relative;
+        right: 10px;
+    }
+
+    #cs-modal-two .modal-content {
+        height: 400px;
+    }
+    
+    #cs-modal-three .modal-content {
+        height: 400px;
+    }
+
+    #csImageModalThree {
+        margin: auto 160px;
+    }
+
+    #fpg4, #fpg5, #fpg6, #fpg7, #fpg8, #fpg9, #fpg10, #fpg18, #fpg25 {
+        height: 640px;
+    }
+
+    #fpg19, #fpg28, #fpg29 {
+        height: 670px;
+    }
+
+    #fpg20, #fpg27  {
+        height: 750px;
+    }
+
+    #fpg26 {
+        height: 700px;
+    }
+
+    .form-progress-bar-description {
+       font-size: 13px;
+     }
+
+     .progress-bar {
+        height: 20px;
+     }
+
+     #form-profile-icon {
+        width: 75px;
+    }
+
+    .form-profile-info {
+        font-size: 12px;
+    }
+
+    .form-profile-name {
+        font-size: 13px;
+    }
+
+    .form-title {
+        font-size: 24px;
+    }
+
+    #fpg1 .form-title  {
+        font-size: 40px;
+    }
+
+    .form-select  {
+        width: 400px;
+    }
+
+    .form .form-control {
+        width: 400px;
+    }
+
+    .form-button, .back-button {
+        width: 180px;
+    }
+
+    .algolia-places .form-control {
+        width: 410px;
+      }
+
+    .ap-icon-pin, .ap-icon-clear {
+          margin-right: 28%;
+      }
+
+    .radio-card-img {
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .radio-card {
+        height: 235px;
+    }
+
+    .radio-card-title {
+        font-size: 20px;
+    }
+
+    #fpg8 .fpg8-label {
+        font-size: 16px;
+    }
+
+    #form-back-button {
+        width: 370px;
+    }
+
+    #sqftbuilding {
+        position: relative;
+        left: 2px;
+        width: 395px;
+    }
+
+    #driverOne-date, #driverOne-gender, #driverTwo-date, #driverTwo-gender, 
+    #driverThree-date, #driverThree-gender, #driverFour-date, #driverFour-gender {
+      width: 190px; 
+      margin: 15px 10px;
+      font-size: 16px;
+    }
+
+    #claimOne-status, #claimTwo-status, #claimThree-status {
+        width: 160px;
+        font-size: 14px;
+    }
+    
+    #claimOne-cost, #claimTwo-cost, #claimThree-cost {
+        width: 22 0px;
+    }
+
+    .finishedform-img {
+        width: 200px;
+    }
+}
